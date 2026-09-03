@@ -1,34 +1,52 @@
-import { useEffect, useState }
-from "react";
+import { useEffect, useState } from "react";
+
+const getInitialTheme = () => {
+  const savedTheme =
+    localStorage.getItem("calcport-theme");
+
+  if (savedTheme) {
+    return savedTheme;
+  }
+
+  return window.matchMedia(
+    "(prefers-color-scheme: dark)"
+  ).matches
+    ? "dark"
+    : "light";
+};
 
 export default function ThemeToggle() {
-
-  const [darkMode, setDarkMode] =
-    useState(false);
+  const [theme, setTheme] =
+    useState(getInitialTheme);
 
   useEffect(() => {
+    document.documentElement.classList.toggle(
+      "dark",
+      theme === "dark"
+    );
 
-    if (darkMode) {
+    localStorage.setItem(
+      "calcport-theme",
+      theme
+    );
+  }, [theme]);
 
-      document.body.classList.add("dark");
-
-    } else {
-
-      document.body.classList.remove("dark");
-    }
-
-  }, [darkMode]);
+  const toggleTheme = () => {
+    setTheme((current) =>
+      current === "dark"
+        ? "light"
+        : "dark"
+    );
+  };
 
   return (
     <button
+      type="button"
       className="theme-toggle"
-      onClick={() =>
-        setDarkMode(!darkMode)
-      }
+      onClick={toggleTheme}
+      aria-label="Toggle color theme"
     >
-
-      {darkMode ? "☀️" : "🌙"}
-
+      {theme === "dark" ? "☀️" : "🌙"}
     </button>
   );
 }

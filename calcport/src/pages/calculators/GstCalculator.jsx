@@ -12,8 +12,6 @@ import AdPlaceholder from "../../components/AdPlaceholder";
 
 import InfoSection from "../../components/InfoSection";
 
-import FaqSection from "../../components/FaqSection";
-
 import RelatedCalculators from "../../components/RelatedCalculators";
 
 import Seo from "../../components/Seo";
@@ -25,30 +23,13 @@ export default function GstCalculator() {
   const [gstRate, setGstRate] = useState("");
 
   const gstAmount =
-    (Number(amount) * Number(gstRate)) / 100;
+amount && gstRate
+  ? (Number(amount) * Number(gstRate)) / 100
+  : 0;
 
   const totalAmount =
     Number(amount) + gstAmount;
 
-    const faqs = [
-        {
-          question: "What is GST?",
-          answer:
-            "GST is an indirect tax applied on goods and services.",
-        },
-      
-        {
-          question: "How is GST calculated?",
-          answer:
-            "GST is calculated using the formula: (Amount × GST Rate) / 100",
-        },
-      
-        {
-          question: "What is 18% GST on ₹1000?",
-          answer:
-            "18% GST on ₹1000 is ₹180.",
-        },
-      ];
 
   return (
 <>
@@ -139,9 +120,9 @@ export default function GstCalculator() {
 
       </InfoSection>
 
-      <FaqSection faqs={faqs} />
-
       <RelatedCalculators />
+
+      
 
     </CalculatorLayout>
     </>

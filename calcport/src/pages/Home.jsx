@@ -3,9 +3,18 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import SearchBar from "../components/SearchBar";
-import CategorySection from "../components/CategorySection";
+/* import SearchBar from "../components/SearchBar"; */
+/* import CategorySection from "../components/CategorySection"; */
 import CalculatorSection from "../components/CalculatorSection";
+
+import CategoryCard
+  from "../components/CategoryCard";
+
+import { categoriesConfig }
+  from "../config/categories";
+
+import CalculatorSearch
+  from "../components/CalculatorSearch";
 
 export default function Home() {
 
@@ -19,31 +28,42 @@ export default function Home() {
       {/* HERO SECTION */}
 
       <section className="hero">
+  <h1>
+    Free Calculators for Everyday Life
+  </h1>
 
-        <h1>
-          All Your Calculations,
-          One Place.
-        </h1>
+  <p>
+    Fast, simple and easy-to-use calculators
+    for finance, health, math and more.
+  </p>
 
-        <p>
-          Fast, accurate and free calculators
-          for everyday use.
-        </p>
-
-        <SearchBar
-          search={search}
-          setSearch={setSearch}
-        />
-
-      </section>
-
-      {/* CATEGORY SECTION */}
-
-      <CategorySection />
+  <CalculatorSearch />
+</section>
 
       {/* CALCULATORS */}
 
       <CalculatorSection search={search} />
+
+       {/* CATEGORY SECTION */}
+
+      <section className="category-section">
+  <div className="section-header">
+    <h2>Browse by Category</h2>
+
+    <p>
+      Find the right calculator for your needs.
+    </p>
+  </div>
+
+  <div className="category-grid">
+    {categoriesConfig.map((category) => (
+      <CategoryCard
+        key={category.id}
+        category={category}
+      />
+    ))}
+  </div>
+</section>
 
       {/* FOOTER */}
 

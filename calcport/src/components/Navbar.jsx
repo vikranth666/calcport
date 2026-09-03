@@ -1,27 +1,31 @@
 import { useState } from "react";
-
 import { Link } from "react-router-dom";
-
-import { FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+} from "react-icons/fa";
 
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
-
   const [menuOpen, setMenuOpen] =
     useState(false);
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <nav className="navbar">
-
-      <div className="logo">
+      <Link
+        to="/"
+        className="logo"
+        onClick={closeMenu}
+      >
         CalcPort
-      </div>
-
-      {/* DESKTOP LINKS */}
+      </Link>
 
       <div className="nav-links desktop-nav">
-
         <Link to="/">Home</Link>
 
         <Link to="/calculators">
@@ -32,64 +36,57 @@ export default function Navbar() {
           About
         </Link>
 
+        <ThemeToggle />
       </div>
 
-      <ThemeToggle />
-      
-      {/* MOBILE ICON */}
+      <div className="mobile-nav-actions">
+        <ThemeToggle />
 
-      <div
-        className="mobile-menu-icon"
-        onClick={() =>
-          setMenuOpen(!menuOpen)
-        }
-      >
-
-        {menuOpen ? (
-          <FaTimes />
-        ) : (
-          <FaBars />
-        )}
-
+        <button
+          type="button"
+          className="mobile-menu-icon"
+          onClick={() =>
+            setMenuOpen((current) => !current)
+          }
+          aria-label={
+            menuOpen
+              ? "Close menu"
+              : "Open menu"
+          }
+          aria-expanded={menuOpen}
+        >
+          {menuOpen ? (
+            <FaTimes />
+          ) : (
+            <FaBars />
+          )}
+        </button>
       </div>
-
-      {/* MOBILE MENU */}
 
       {menuOpen && (
-
         <div className="mobile-menu">
-
           <Link
             to="/"
-            onClick={() =>
-              setMenuOpen(false)
-            }
+            onClick={closeMenu}
           >
             Home
           </Link>
 
           <Link
             to="/calculators"
-            onClick={() =>
-              setMenuOpen(false)
-            }
+            onClick={closeMenu}
           >
             Calculators
           </Link>
 
           <Link
             to="/about"
-            onClick={() =>
-              setMenuOpen(false)
-            }
+            onClick={closeMenu}
           >
             About
           </Link>
-
         </div>
-
       )}
-
     </nav>
   );
 }

@@ -1,12 +1,16 @@
 export default function CalculatorContainer({
-    children,
-  }) {
-  
-    return (
-      <div className="calculator-container">
-  
-        {children}
-  
-      </div>
-    );
-  }
+  children,
+  onSubmit,
+}) {
+  return (
+    <form
+      className="calculator-container"
+      onSubmit={(event) => {
+        event.preventDefault();
+        onSubmit?.();
+      }}
+    >
+      {children}
+    </form>
+  );
+}

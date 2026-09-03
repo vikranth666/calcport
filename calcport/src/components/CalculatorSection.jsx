@@ -1,5 +1,4 @@
-import { calculators }
-from "../data/Calculators";
+import { calculatorsConfig } from "../config/calculatorsConfig";
 
 import CalculatorCard
 from "./CalculatorCard";
@@ -9,7 +8,7 @@ export default function CalculatorSection({
 }) {
 
   const filteredCalculators =
-    calculators.filter((calculator) =>
+    calculatorsConfig.filter((calculator) =>
       calculator.title
         .toLowerCase()
         .includes(search.toLowerCase())
