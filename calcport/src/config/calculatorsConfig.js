@@ -1,4 +1,6 @@
 export const calculatorsConfig = [
+
+    // GST
   {
     id: "gst",
     slug: "gst-calculator",
@@ -63,6 +65,8 @@ export const calculatorsConfig = [
       },
     ],
   },
+
+  // EMI
 
   {
     id: "emi",
@@ -129,6 +133,8 @@ export const calculatorsConfig = [
     ],
   },
 
+  // BMI
+
   {
     id: "bmi",
     slug: "bmi-calculator",
@@ -194,6 +200,8 @@ export const calculatorsConfig = [
     ],
   },
 
+  // AGE
+
   {
     id: "age",
     slug: "age-calculator",
@@ -258,6 +266,8 @@ export const calculatorsConfig = [
       },
     ],
   },
+
+  // PERCENTAGE
 
   {
     id: "percentage",
@@ -335,6 +345,8 @@ export const calculatorsConfig = [
       },
     ],
   },
+
+  // DISCOUNT
 
   {
   id: "discount",
@@ -423,6 +435,7 @@ export const calculatorsConfig = [
   ],
 },
 
+// AVERAGE
 {
   id: "average",
 
@@ -510,6 +523,8 @@ export const calculatorsConfig = [
   ],
 },
 
+// RATIO
+
 {
   id: "ratio",
 
@@ -585,6 +600,8 @@ export const calculatorsConfig = [
     },
   ],
 },
+
+// PROFIT AND LOSS
 
 {
   id: "profit-loss",
@@ -673,5 +690,255 @@ export const calculatorsConfig = [
   ],
 },
 
+// SIMPLE-INTREST
+{
+  id: "simple-interest",
+  slug: "simple-interest-calculator",
+  title: "Simple Interest Calculator",
+  description:
+    "Calculate simple interest and total amount quickly.",
+  category: "Finance",
+  type: "simple-interest",
+  icon: "💵",
+  popular: false,
+
+  seo: {
+    title:
+      "Simple Interest Calculator - Calculate SI Online | CalcPort",
+
+    description:
+      "Calculate simple interest and total amount using CalcPort's free simple interest calculator.",
+
+    keywords: [
+      "simple interest calculator",
+      "simple interest calculator online",
+      "calculate simple interest",
+      "simple interest formula",
+      "SI calculator",
+    ],
+
+    intro:
+      "Use our free simple interest calculator to calculate the interest earned or paid on a principal amount based on the interest rate and time period.",
+
+    sections: [
+      {
+        title: "How to Calculate Simple Interest",
+        content:
+          "Simple interest is calculated using the principal amount, annual interest rate, and time period. Enter these values into the calculator to find the simple interest and total amount.",
+      },
+
+      {
+        title: "Simple Interest Formula",
+        content:
+          "The simple interest formula is SI = (P × R × T) ÷ 100, where P is the principal amount, R is the annual interest rate, and T is the time period in years.",
+      },
+
+      {
+        title: "Total Amount Formula",
+        content:
+          "The total amount is calculated by adding the simple interest to the original principal. Total Amount = Principal + Simple Interest.",
+      },
+
+      {
+        title: "Where Is Simple Interest Used?",
+        content:
+          "Simple interest calculations can be useful for understanding basic interest on loans, investments, deposits, and other financial calculations.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is simple interest?",
+
+      answer:
+        "Simple interest is interest calculated directly on the original principal amount for a specified rate and period.",
+    },
+
+    {
+      question:
+        "What is the simple interest formula?",
+
+      answer:
+        "The formula is SI = (P × R × T) ÷ 100, where P is principal, R is the annual interest rate, and T is time in years.",
+    },
+
+    {
+      question:
+        "What is the difference between simple interest and compound interest?",
+
+      answer:
+        "Simple interest is calculated on the original principal, while compound interest can be calculated on the principal plus accumulated interest.",
+    },
+  ],
+},
+
+// COMPOUND INTREST
+
+{
+  id: "compound-interest",
+  slug: "compound-interest-calculator",
+  title: "Compound Interest Calculator",
+  description:
+    "Calculate compound interest and total amount quickly.",
+  category: "Finance",
+  type: "compound-interest",
+  icon: "📈",
+  popular: false,
+
+  seo: {
+    title:
+      "Compound Interest Calculator - Calculate CI Online | CalcPort",
+
+    description:
+      "Calculate compound interest and total amount using CalcPort's free compound interest calculator.",
+
+    keywords: [
+      "compound interest calculator",
+      "compound interest calculator online",
+      "calculate compound interest",
+      "compound interest formula",
+      "CI calculator",
+    ],
+
+    intro:
+      "Use our free compound interest calculator to calculate the interest earned or paid on an amount based on the principal, interest rate, time period, and compounding frequency.",
+
+    sections: [
+      {
+        title: "How to Calculate Compound Interest",
+        content:
+          "Enter the principal amount, annual interest rate, time period, and compounding frequency. The calculator will calculate the compound interest and final amount.",
+      },
+      {
+        title: "Compound Interest Formula",
+        content:
+          "The compound interest formula is A = P(1 + R/N)^(NT), where P is the principal, R is the annual interest rate, N is the number of times interest is compounded per year, and T is the time period in years.",
+      },
+      {
+        title: "Compound Interest vs Simple Interest",
+        content:
+          "Simple interest is calculated only on the original principal, while compound interest is calculated on the principal plus accumulated interest.",
+      },
+      {
+        title: "Where Is Compound Interest Used?",
+        content:
+          "Compound interest is commonly used for savings, investments, fixed deposits, loans, and other financial calculations where interest is added to the balance over time.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is compound interest?",
+      answer:
+        "Compound interest is interest calculated on the original principal as well as the interest accumulated during previous periods.",
+    },
+    {
+      question:
+        "What is the compound interest formula?",
+      answer:
+        "The formula is A = P(1 + R/N)^(NT), where P is principal, R is annual interest rate, N is compounding frequency, and T is time in years.",
+    },
+    {
+      question:
+        "What is the difference between simple and compound interest?",
+      answer:
+        "Simple interest is calculated only on the original principal, while compound interest also considers previously accumulated interest.",
+    },
+    {
+      question:
+        "How does compounding frequency affect interest?",
+      answer:
+        "Generally, more frequent compounding can result in a higher final amount because interest is added to the balance more often.",
+    },
+  ],
+},
+
+// SIP 
+
+{
+  id: "sip",
+  slug: "sip-calculator",
+  title: "SIP Calculator",
+  description:
+    "Calculate your SIP investment, returns, and maturity amount.",
+  category: "Finance",
+  type: "sip",
+  icon: "📊",
+  popular: true,
+
+  seo: {
+    title:
+      "SIP Calculator - Calculate SIP Returns Online | CalcPort",
+
+    description:
+      "Calculate SIP returns, total investment, and estimated maturity amount using CalcPort's free SIP calculator.",
+
+    keywords: [
+      "SIP calculator",
+      "SIP calculator online",
+      "SIP returns calculator",
+      "mutual fund SIP calculator",
+      "monthly SIP calculator",
+      "SIP investment calculator",
+    ],
+
+    intro:
+      "Use our free SIP calculator to estimate the future value of your monthly investments, total amount invested, and potential returns.",
+
+    sections: [
+      {
+        title: "How to Calculate SIP Returns",
+        content:
+          "Enter your monthly investment, expected annual return rate, and investment duration. The calculator estimates the total investment, estimated returns, and final maturity amount.",
+      },
+      {
+        title: "SIP Formula",
+        content:
+          "The commonly used SIP formula is M = P × [((1 + i)^n - 1) / i] × (1 + i), where P is the monthly investment, i is the monthly rate of return, and n is the total number of monthly investments.",
+      },
+      {
+        title: "What Is a SIP?",
+        content:
+          "A Systematic Investment Plan, or SIP, allows investors to invest a fixed amount regularly, usually every month, into a mutual fund or similar investment product.",
+      },
+      {
+        title: "Are SIP Calculator Results Guaranteed?",
+        content:
+          "No. SIP calculator results are estimates based on the expected rate of return entered by the user. Actual investment returns can vary depending on market performance.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is a SIP?",
+      answer:
+        "SIP stands for Systematic Investment Plan. It allows you to invest a fixed amount regularly, commonly every month, into a mutual fund or investment scheme.",
+    },
+    {
+      question:
+        "How does a SIP calculator work?",
+      answer:
+        "A SIP calculator uses your monthly investment, expected annual return, and investment duration to estimate the total amount invested, potential returns, and maturity value.",
+    },
+    {
+      question:
+        "Are SIP calculator results accurate?",
+      answer:
+        "SIP calculator results are estimates based on the expected return rate you enter. Actual returns may be different because investment returns are not guaranteed.",
+    },
+    {
+      question:
+        "Can I use the SIP calculator for monthly investments?",
+      answer:
+        "Yes. The calculator is designed primarily for regular monthly SIP investments.",
+    },
+  ],
+},
 
 ];

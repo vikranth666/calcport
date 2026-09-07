@@ -10,6 +10,9 @@ import InfoSection
 import FaqSection
   from "../components/FaqSection";
 
+import AdSlot
+  from "../components/AdSlot";
+
 import RelatedCalculators
   from "../components/RelatedCalculators";
 
@@ -44,6 +47,15 @@ import RatioCalculatorUI
 
 import ProfitLossCalculatorUI
   from "../components/calculators/ProfitLossCalculatorUI";
+
+import SimpleInterestCalculatorUI
+  from "../components/calculators/SimpleInterestCalculatorUI";
+
+import CompoundInterestCalculatorUI
+  from "../components/calculators/CompoundInterestCalculatorUI";
+
+import SipCalculatorUI
+  from "../components/calculators/SipCalculatorUI";
 
 export default function DynamicCalculator() {
 
@@ -88,6 +100,17 @@ export default function DynamicCalculator() {
     case "profit-loss":
       return <ProfitLossCalculatorUI />;
 
+    case "simple-interest":
+      return <SimpleInterestCalculatorUI />
+
+    case "compound-interest":
+      return <CompoundInterestCalculatorUI />
+
+    case "sip":
+      return <SipCalculatorUI />
+  
+  
+
 
     default:
       return (
@@ -114,6 +137,8 @@ export default function DynamicCalculator() {
     calculator.description
   }
 >
+    <AdSlot className="ad-top" />
+
   {renderCalculator()}
 
   {calculator.seo?.intro && (
@@ -139,6 +164,8 @@ export default function DynamicCalculator() {
     )
   )}
 
+  <AdSlot className="ad-middle" />
+
   {calculator.faqs?.length > 0 && (
     <FaqSection
       faqs={calculator.faqs}
@@ -148,6 +175,8 @@ export default function DynamicCalculator() {
   <RelatedCalculators
   currentCalculator={calculator.slug}
 />
+
+<AdSlot className="ad-middle" />
 </CalculatorLayout>
     </>
   );
