@@ -12,58 +12,104 @@ export const calculatorsConfig = [
     popular: true,
 
     seo: {
-      title: "GST Calculator - Calculate GST Online | CalcPort",
+  title:
+    "GST Calculator - Add & Remove GST Online | CalcPort",
 
-      description:
-        "Calculate GST online quickly with CalcPort's free GST calculator. Find GST amounts and total prices with ease.",
+  description:
+    "Use CalcPort's free GST calculator to add or remove GST and calculate the base amount, GST amount, and total amount.",
 
-      keywords: [
-        "gst calculator",
-        "gst calculator online",
-        "calculate gst",
-        "gst calculation",
-        "gst percentage calculator",
-      ],
+  keywords: [
+    "GST calculator",
+    "GST calculator online",
+    "GST inclusive calculator",
+    "GST exclusive calculator",
+    "add GST calculator",
+    "remove GST calculator",
+    "GST percentage calculator",
+    "GST calculation",
+    "GST calculator India",
+    "GST inclusive exclusive calculator",
+  ],
 
-      intro:
-        "Our free GST calculator helps you calculate Goods and Services Tax quickly and accurately. Enter your amount and GST rate to find the GST amount and total value.",
+  intro:
+    "Use our free GST calculator to quickly calculate GST-inclusive and GST-exclusive amounts. Add GST to an amount or remove GST from a GST-inclusive price to find the base amount and GST amount.",
 
-      sections: [
-        {
-          title: "How to Calculate GST",
-          content:
-            "To calculate GST, multiply the original amount by the GST rate and divide the result by 100. For example, 18% GST on ₹10,000 is ₹1,800, making the total amount ₹11,800.",
-        },
-        {
-          title: "GST Formula",
-          content:
-            "The basic GST formula is GST Amount = (Original Amount × GST Rate) ÷ 100. The total amount including GST is calculated by adding the GST amount to the original amount.",
-        },
-        {
-          title: "Why Use a GST Calculator?",
-          content:
-            "A GST calculator saves time and reduces manual calculation errors. It can be useful for businesses, freelancers, shoppers, and anyone who needs to calculate GST quickly.",
-        },
-      ],
+  sections: [
+    {
+      title: "How to Use the GST Calculator",
+      content:
+        "Choose whether you want to add GST or remove GST. Enter the amount and GST rate, and CalcPort will calculate the base amount, GST amount, and total amount.",
     },
 
+    {
+      title: "Adding GST to an Amount",
+      content:
+        "When adding GST, the calculator applies the selected GST rate to the original amount and adds the GST amount to calculate the final price.",
+    },
+
+    {
+      title: "Removing GST from an Amount",
+      content:
+        "When removing GST, the calculator treats the entered value as a GST-inclusive amount and calculates the original price before GST and the GST component included in the total.",
+    },
+
+    {
+      title: "GST Calculation Formula",
+      content:
+        "For adding GST: GST Amount = Base Amount × GST Rate ÷ 100. Total Amount = Base Amount + GST Amount. For removing GST: Base Amount = Inclusive Amount ÷ (1 + GST Rate ÷ 100).",
+    },
+
+    {
+      title: "Common GST Rates",
+      content:
+        "Common GST rates in India include 5%, 12%, 18%, and 28%. The applicable rate depends on the goods or services being purchased.",
+    },
+
+    {
+      title: "GST Calculator Disclaimer",
+      content:
+        "This calculator performs mathematical GST calculations based on the rate entered by the user. The applicable GST rate and tax treatment can depend on the specific goods, services, transaction, and current tax rules.",
+    },
+  ],
+},
+
     faqs: [
-      {
-        question: "What is GST?",
-        answer:
-          "GST stands for Goods and Services Tax. It is an indirect tax applied to the supply of goods and services.",
-      },
-      {
-        question: "How is GST calculated?",
-        answer:
-          "GST is calculated by multiplying the original amount by the GST rate and dividing the result by 100.",
-      },
-      {
-        question: "Is the CalcPort GST calculator free?",
-        answer:
-          "Yes. The CalcPort GST calculator is free to use.",
-      },
-    ],
+  {
+    question: "What is a GST calculator?",
+    answer:
+      "A GST calculator calculates the GST amount, base amount, and total amount for a transaction.",
+  },
+  {
+    question: "How do I add GST to an amount?",
+    answer:
+      "Select Add GST, enter the amount before GST, and enter the applicable GST rate. The calculator will show the GST amount and final total.",
+  },
+  {
+    question: "How do I remove GST from an amount?",
+    answer:
+      "Select Remove GST and enter the GST-inclusive amount. The calculator will calculate the original amount before GST and the GST component.",
+  },
+  {
+    question: "What is a GST-inclusive amount?",
+    answer:
+      "A GST-inclusive amount is a final price that already includes GST.",
+  },
+  {
+    question: "What is a GST-exclusive amount?",
+    answer:
+      "A GST-exclusive amount is the price before GST is added.",
+  },
+  {
+    question: "Can I calculate 18% GST?",
+    answer:
+      "Yes. Enter 18% as the GST rate to calculate GST at 18 percent.",
+  },
+  {
+    question: "Is the GST calculator free?",
+    answer:
+      "Yes. CalcPort's GST calculator is free to use online.",
+  },
+],
   },
 
   // EMI
@@ -213,58 +259,116 @@ export const calculatorsConfig = [
     popular: true,
 
     seo: {
-      title: "Age Calculator - Calculate Your Exact Age | CalcPort",
+  title:
+    "Age Calculator - Calculate Exact Age & Next Birthday | CalcPort",
 
-      description:
-        "Calculate your exact age in years, months, and days with CalcPort's free online age calculator.",
+  description:
+    "Use CalcPort's free age calculator to calculate your exact age in years, months, days, total days, total weeks, and months.",
 
-      keywords: [
-        "age calculator",
-        "age calculator online",
-        "calculate age",
-        "exact age calculator",
-        "date of birth calculator",
-      ],
+  keywords: [
+    "age calculator",
+    "age calculator online",
+    "calculate age",
+    "exact age calculator",
+    "age in years months days",
+    "date of birth calculator",
+    "birthday calculator",
+    "next birthday calculator",
+    "how old am I calculator",
+    "age from date of birth",
+  ],
 
-      intro:
-        "Use CalcPort's free age calculator to calculate your exact age from your date of birth. Get your age in years, months, and days quickly and easily.",
+  intro:
+    "Use our free age calculator to calculate your exact age in years, months, and days. You can also find your total months, weeks, days, and the number of days until your next birthday.",
 
-      sections: [
-        {
-          title: "How to Calculate Age",
-          content:
-            "To calculate your age, enter your date of birth and compare it with the current date. The calculator determines the difference between the two dates.",
-        },
-        {
-          title: "What Does the Age Calculator Show?",
-          content:
-            "Depending on the calculation, an age calculator can show your age in years, months, and days. It can also help determine the time between two dates.",
-        },
-        {
-          title: "Why Use an Age Calculator?",
-          content:
-            "An age calculator makes date calculations faster and easier than manually counting years, months, and days. It can be useful for birthdays, forms, applications, and general date calculations.",
-        },
-      ],
+  sections: [
+    {
+      title: "How to Use the Age Calculator",
+      content:
+        "Enter your date of birth and choose the date on which you want to calculate your age. The calculator will show your exact age in years, months, and days along with your total months, weeks, and days.",
     },
 
-    faqs: [
-      {
-        question: "How does an age calculator work?",
-        answer:
-          "An age calculator compares your date of birth with a selected date and calculates the difference between them.",
-      },
-      {
-        question: "Can I calculate my exact age?",
-        answer:
-          "Yes. CalcPort's age calculator can calculate age using the difference between your date of birth and the selected date.",
-      },
-      {
-        question: "Is the CalcPort age calculator free?",
-        answer:
-          "Yes. The CalcPort age calculator is free to use.",
-      },
-    ],
+    {
+      title: "How Is Age Calculated?",
+      content:
+        "Age is calculated by comparing the date of birth with the selected calculation date. The calculator accounts for the different number of days in each month and calculates the remaining years, months, and days.",
+    },
+
+    {
+      title: "What Is Exact Age?",
+      content:
+        "Exact age expresses your age as a combination of complete years, months, and days rather than only showing the number of completed years.",
+    },
+
+    {
+      title: "How Many Days Until My Next Birthday?",
+      content:
+        "The calculator determines the next occurrence of your birthday after the selected calculation date and shows the number of days remaining until that birthday.",
+    },
+
+    {
+      title: "Can I Calculate Age on a Specific Date?",
+      content:
+        "Yes. You can select a date other than today to calculate how old someone was or will be on a particular date.",
+    },
+
+    {
+      title: "Age Calculator Accuracy",
+      content:
+        "The calculator uses calendar dates to determine the difference between the birth date and calculation date. Results depend on the dates entered and are intended for general informational use.",
+    },
+  ],
+},
+
+faqs: [
+  {
+    question: "What is an age calculator?",
+    answer:
+      "An age calculator determines a person's age from their date of birth and a selected calculation date.",
+  },
+
+  {
+    question: "How do I calculate my exact age?",
+    answer:
+      "Enter your date of birth and the date you want to calculate your age on. The calculator will show your age in years, months, and days.",
+  },
+
+  {
+    question: "Can I calculate my age on a past date?",
+    answer:
+      "Yes. Select the past date in the Calculate Age On field to determine your age on that specific date.",
+  },
+
+  {
+    question: "Can I calculate my age on a future date?",
+    answer:
+      "Yes. You can select a future date to determine how old you will be on that date.",
+  },
+
+  {
+    question: "Can this calculator calculate total days lived?",
+    answer:
+      "Yes. The calculator displays the total number of calendar days between the date of birth and the selected calculation date.",
+  },
+
+  {
+    question: "Can I find my next birthday?",
+    answer:
+      "Yes. The calculator shows the number of days remaining until your next birthday.",
+  },
+
+  {
+    question: "Does the age calculator account for leap years?",
+    answer:
+      "Yes. The calculation uses calendar dates, including the varying number of days in months and leap years.",
+  },
+
+  {
+    question: "Is the age calculator free?",
+    answer:
+      "Yes. CalcPort's age calculator is free to use online.",
+  },
+],
   },
 
   // PERCENTAGE
@@ -2807,7 +2911,475 @@ export const calculatorsConfig = [
   ],
 },
 
+// CURRENCY CONVERTER
 
+{
+  id: "currency-converter",
+  slug: "currency-converter",
+  title: "Currency Converter",
+  description:
+    "Convert currencies using current exchange rates. Convert USD, INR, EUR, GBP, JPY, AUD, CAD, and more.",
+  category: "Finance",
+  type: "currency-converter",
+  icon: "💱",
+  popular: true,
 
+  seo: {
+    title:
+      "Currency Converter - Convert USD, INR, EUR & More | CalcPort",
+
+    description:
+      "Use CalcPort's free currency converter to convert USD, INR, EUR, GBP, JPY, and other currencies using current exchange rates.",
+
+    keywords: [
+      "currency converter",
+      "currency converter online",
+      "currency exchange calculator",
+      "USD to INR",
+      "INR to USD",
+      "EUR to INR",
+      "GBP to INR",
+      "dollar to rupee converter",
+      "exchange rate calculator",
+    ],
+
+    intro:
+      "Use our free currency converter to quickly convert one currency into another using current exchange rates. Convert popular currencies such as USD, INR, EUR, GBP, JPY, AUD, and CAD.",
+
+    sections: [
+      {
+        title: "How to Use the Currency Converter",
+        content:
+          "Select the currency you want to convert from, select the currency you want to convert to, and enter the amount. CalcPort will calculate the converted value using the available exchange rate.",
+      },
+
+      {
+        title: "Current Exchange Rates",
+        content:
+          "Exchange rates change over time. The calculator retrieves current available reference rates instead of relying on a permanently hardcoded exchange rate.",
+      },
+
+      {
+        title: "Popular Currency Conversions",
+        content:
+          "Common conversions include USD to INR, INR to USD, EUR to INR, GBP to INR, USD to EUR, and other major currency pairs.",
+      },
+
+      {
+        title: "Are Currency Exchange Rates Exact?",
+        content:
+          "Exchange rates can vary between banks, payment providers, money exchanges, and financial markets. Calculator results should therefore be treated as reference values rather than guaranteed transaction rates.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a currency converter?",
+      answer:
+        "A currency converter calculates the value of an amount in one currency based on the exchange rate for another currency.",
+    },
+
+    {
+      question: "Can I convert USD to INR?",
+      answer:
+        "Yes. Select USD as the source currency, INR as the target currency, enter an amount, and the calculator will display the converted value.",
+    },
+
+    {
+      question: "Can I convert INR to USD?",
+      answer:
+        "Yes. Select INR as the source currency and USD as the target currency.",
+    },
+
+    {
+      question: "Are the exchange rates updated?",
+      answer:
+        "The calculator uses available current reference exchange-rate data. Exchange rates can change, so the displayed rate may differ from the rate offered by a bank or payment provider.",
+    },
+
+    {
+      question: "Is the currency converter free?",
+      answer:
+        "Yes. CalcPort's currency converter is free to use online.",
+    },
+  ],
+},
+
+// TIP CALCULATOR
+
+{
+  id: "tip-calculator",
+  slug: "tip-calculator",
+  title: "Tip Calculator",
+  description:
+    "Calculate tip amount, total bill, and how much each person should pay.",
+  category: "Finance",
+  type: "tip-calculator",
+  icon: "💵",
+  popular: true,
+
+  seo: {
+    title:
+      "Tip Calculator - Calculate Tip & Split Bill | CalcPort",
+
+    description:
+      "Use CalcPort's free tip calculator to calculate tips, total bills, and the amount each person should pay.",
+
+    keywords: [
+      "tip calculator",
+      "tip calculator online",
+      "restaurant tip calculator",
+      "tip percentage calculator",
+      "bill splitter",
+      "split bill calculator",
+      "calculate tip",
+      "tip and tax calculator",
+    ],
+
+    intro:
+      "Use our free tip calculator to quickly calculate the tip amount, total bill, and cost per person when splitting a bill.",
+
+    sections: [
+      {
+        title: "How to Use the Tip Calculator",
+        content:
+          "Enter the bill amount, choose a tip percentage, and enter the number of people sharing the bill. The calculator will calculate the tip, total bill, and amount each person should pay.",
+      },
+
+      {
+        title: "How Is the Tip Calculated?",
+        content:
+          "The tip amount is calculated by multiplying the bill amount by the selected tip percentage. The tip is then added to the original bill to determine the total amount.",
+      },
+
+      {
+        title: "Splitting a Bill",
+        content:
+          "Enter the number of people sharing the bill to calculate the amount each person should pay, including their share of the tip.",
+      },
+
+      {
+        title: "Choosing a Tip Percentage",
+        content:
+          "Common tip percentages include 10%, 15%, 18%, 20%, and 25%. You can choose the percentage that suits your situation.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a tip calculator?",
+      answer:
+        "A tip calculator calculates the tip amount, total bill, and individual share when a bill is divided between multiple people.",
+    },
+
+    {
+      question: "How do I calculate a tip?",
+      answer:
+        "Enter the bill amount and select a tip percentage. The calculator will automatically calculate the tip amount and total bill.",
+    },
+
+    {
+      question: "Can I split the bill between multiple people?",
+      answer:
+        "Yes. Enter the number of people sharing the bill and the calculator will show how much each person should pay.",
+    },
+
+    {
+      question: "What tip percentage should I use?",
+      answer:
+        "Common tip percentages include 10%, 15%, 18%, 20%, and 25%. The appropriate percentage depends on your location, service, and personal preference.",
+    },
+
+    {
+      question: "Is the tip calculator free?",
+      answer:
+        "Yes. CalcPort's tip calculator is free to use online.",
+    },
+  ],
+},
+
+// FUEL
+
+{
+  id: "fuel-cost-calculator",
+  slug: "fuel-cost-calculator",
+  title: "Fuel Cost Calculator",
+  description:
+    "Calculate fuel required, total fuel cost, and cost per kilometer for your trip.",
+  category: "Finance",
+  type: "fuel-cost-calculator",
+  icon: "⛽",
+  popular: true,
+
+  seo: {
+    title:
+      "Fuel Cost Calculator - Calculate Trip Fuel Cost | CalcPort",
+    description:
+      "Use CalcPort's free fuel cost calculator to calculate fuel required, total trip cost, and cost per kilometer using distance, mileage, and fuel price.",
+    keywords: [
+      "fuel cost calculator",
+      "fuel calculator",
+      "fuel cost calculator India",
+      "petrol cost calculator",
+      "diesel cost calculator",
+      "trip fuel cost calculator",
+      "fuel consumption calculator",
+      "mileage calculator",
+      "car fuel cost calculator",
+      "fuel price calculator",
+    ],
+    intro:
+      "Use our free fuel cost calculator to estimate how much fuel you need and how much your trip will cost based on distance, vehicle mileage, and fuel price.",
+
+    sections: [
+      {
+        title: "How to Use the Fuel Cost Calculator",
+        content:
+          "Enter the total distance of your trip, your vehicle's mileage, and the current fuel price. CalcPort will calculate the estimated fuel required, total fuel cost, and cost per kilometer.",
+      },
+      {
+        title: "How Is Fuel Cost Calculated?",
+        content:
+          "Fuel required is calculated by dividing the trip distance by the vehicle mileage. The estimated fuel requirement is then multiplied by the fuel price to calculate the total fuel cost.",
+      },
+      {
+        title: "Fuel Cost Formula",
+        content:
+          "Fuel Required = Distance ÷ Mileage. Total Fuel Cost = Fuel Required × Fuel Price. Cost Per Kilometer = Total Fuel Cost ÷ Distance.",
+      },
+      {
+        title: "What Affects Fuel Cost?",
+        content:
+          "Fuel cost depends on factors such as distance, vehicle mileage, fuel price, traffic conditions, driving style, road conditions, and vehicle load. Actual fuel consumption may therefore vary from the calculator estimate.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a fuel cost calculator?",
+      answer:
+        "A fuel cost calculator estimates the amount of fuel required and the total fuel cost for a trip based on distance, mileage, and fuel price.",
+    },
+    {
+      question: "How do I calculate fuel cost for a trip?",
+      answer:
+        "Enter your trip distance, vehicle mileage, and fuel price. The calculator will estimate the fuel required and total cost.",
+    },
+    {
+      question: "What formula is used to calculate fuel cost?",
+      answer:
+        "Fuel Required = Distance ÷ Mileage. Total Fuel Cost = Fuel Required × Fuel Price.",
+    },
+    {
+      question: "Can I use this calculator for petrol and diesel?",
+      answer:
+        "Yes. You can enter the current price of petrol, diesel, or another fuel type to estimate your trip cost.",
+    },
+    {
+      question: "Does the calculator account for real-world mileage?",
+      answer:
+        "The calculator uses the mileage you provide. Actual fuel consumption can vary because of traffic, driving style, road conditions, vehicle load, and other factors.",
+    },
+    {
+      question: "Is the fuel cost calculator free?",
+      answer:
+        "Yes. CalcPort's fuel cost calculator is free to use online.",
+    },
+  ],
+},
+
+// ELECTRIC BILL
+
+{
+  id: "electricity-bill-calculator",
+  slug: "electricity-bill-calculator",
+  title: "Electricity Bill Calculator",
+  description:
+    "Calculate your estimated electricity bill based on units consumed, rate per unit, and fixed charges.",
+  category: "Finance",
+  type: "electricity-bill-calculator",
+  icon: "⚡",
+  popular: true,
+
+  seo: {
+    title:
+      "Electricity Bill Calculator - Calculate Your Power Bill | CalcPort",
+    description:
+      "Use CalcPort's free electricity bill calculator to estimate your electricity bill from units consumed, rate per unit, and fixed charges.",
+    keywords: [
+      "electricity bill calculator",
+      "electricity calculator",
+      "electricity bill calculator India",
+      "electricity unit calculator",
+      "power bill calculator",
+      "electricity cost calculator",
+      "electricity consumption calculator",
+      "electricity bill estimate",
+      "calculate electricity bill",
+      "per unit electricity calculator",
+    ],
+    intro:
+      "Use our free electricity bill calculator to estimate your electricity cost based on electricity units consumed, the rate per unit, and any fixed charges.",
+
+    sections: [
+      {
+        title: "How to Use the Electricity Bill Calculator",
+        content:
+          "Enter the number of electricity units consumed, the electricity rate per unit, and any applicable fixed or monthly charges. CalcPort will estimate your total electricity bill.",
+      },
+      {
+        title: "How Is an Electricity Bill Calculated?",
+        content:
+          "The estimated energy charge is calculated by multiplying electricity consumption in units by the rate per unit. Any fixed charges are then added to calculate the estimated total bill.",
+      },
+      {
+        title: "Electricity Bill Formula",
+        content:
+          "Energy Charge = Units Consumed × Rate Per Unit. Estimated Total Bill = Energy Charge + Fixed Charges.",
+      },
+      {
+        title: "What Are Electricity Units?",
+        content:
+          "One electricity unit is commonly equal to one kilowatt-hour (kWh). It represents the amount of electrical energy consumed by using one kilowatt of power for one hour.",
+      },
+      {
+        title: "Why Can the Actual Bill Be Different?",
+        content:
+          "Actual electricity bills may include taxes, subsidies, meter charges, demand charges, slab-based tariffs, fuel adjustments, and other fees. This calculator provides an estimate based on the values entered.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is an electricity bill calculator?",
+      answer:
+        "An electricity bill calculator estimates your power bill based on electricity consumption, rate per unit, and fixed charges.",
+    },
+    {
+      question: "How do I calculate my electricity bill?",
+      answer:
+        "Multiply the electricity units consumed by the rate per unit and add any applicable fixed charges.",
+    },
+    {
+      question: "What is one unit of electricity?",
+      answer:
+        "One unit of electricity is commonly equal to one kilowatt-hour (kWh).",
+    },
+    {
+      question: "Can I use this calculator in India?",
+      answer:
+        "Yes. You can enter your local electricity rate per unit and applicable fixed charges to estimate your bill.",
+    },
+    {
+      question: "Does this calculator include electricity taxes?",
+      answer:
+        "No. The basic calculator estimates energy charges and fixed charges. Actual bills may include taxes, subsidies, and other utility-specific charges.",
+    },
+    {
+      question: "Why is my actual electricity bill different?",
+      answer:
+        "Electricity providers may use slab tariffs, taxes, subsidies, meter charges, fuel adjustments, and other fees that can make the actual bill different from a simple estimate.",
+    },
+    {
+      question: "Is the electricity bill calculator free?",
+      answer:
+        "Yes. CalcPort's electricity bill calculator is free to use online.",
+    },
+  ],
+},
+
+// TAX 
+
+{
+  id: "tax-calculator",
+  slug: "tax-calculator",
+  title: "Tax Calculator",
+  description:
+    "Calculate taxable income, estimated tax, and income after tax.",
+  category: "Finance",
+  type: "tax-calculator",
+  icon: "🧾",
+  popular: true,
+
+  seo: {
+    title:
+      "Tax Calculator - Calculate Tax & Taxable Income | CalcPort",
+    description:
+      "Use CalcPort's free tax calculator to estimate taxable income, tax payable, and income after tax.",
+    keywords: [
+      "tax calculator",
+      "tax calculator online",
+      "income tax calculator",
+      "income tax calculator India",
+      "taxable income calculator",
+      "tax payable calculator",
+      "salary tax calculator",
+      "calculate income tax",
+      "tax deduction calculator",
+    ],
+    intro:
+      "Use our free tax calculator to estimate taxable income, estimated tax, and your income after tax based on your annual income, deductions, and tax rate.",
+
+    sections: [
+      {
+        title: "How to Use the Tax Calculator",
+        content:
+          "Enter your annual income, eligible deductions, and estimated tax rate. The calculator subtracts deductions from income to estimate taxable income and then calculates the estimated tax.",
+      },
+      {
+        title: "How Is Tax Calculated?",
+        content:
+          "Taxable income is estimated by subtracting eligible deductions from annual income. Estimated tax is then calculated by applying the entered tax rate to the taxable income.",
+      },
+      {
+        title: "Tax Calculator Formula",
+        content:
+          "Taxable Income = Annual Income − Deductions. Estimated Tax = Taxable Income × Tax Rate ÷ 100. Income After Tax = Annual Income − Estimated Tax.",
+      },
+      {
+        title: "Are Tax Calculator Results Exact?",
+        content:
+          "This calculator provides a simplified tax estimate. Actual tax liability can depend on tax slabs, exemptions, deductions, rebates, surcharges, cess, and the applicable tax rules for your situation.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a tax calculator?",
+      answer:
+        "A tax calculator estimates taxable income, tax payable, and income remaining after estimated tax.",
+    },
+    {
+      question: "How is taxable income calculated?",
+      answer:
+        "In this simplified calculator, taxable income is calculated by subtracting deductions from annual income.",
+    },
+    {
+      question: "Can I use this calculator for income tax?",
+      answer:
+        "Yes. You can use it for a simplified estimate of income tax by entering your annual income, deductions, and applicable estimated tax rate.",
+    },
+    {
+      question: "Does this calculator use Indian tax slabs?",
+      answer:
+        "No. This version uses a tax rate entered by the user rather than automatically applying Indian tax slabs.",
+    },
+    {
+      question: "Why can my actual tax be different?",
+      answer:
+        "Actual tax can differ because of tax slabs, exemptions, deductions, rebates, cess, surcharges, and other applicable tax rules.",
+    },
+    {
+      question: "Is the tax calculator free?",
+      answer:
+        "Yes. CalcPort's tax calculator is free to use online.",
+    },
+  ],
+},
 
 ];

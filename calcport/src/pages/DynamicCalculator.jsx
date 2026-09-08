@@ -126,6 +126,21 @@ import HeartRateCalculatorUI
 import BodySurfaceAreaCalculatorUI
   from "../components/calculators/BodySurfaceAreaCalculatorUI";
 
+import CurrencyConverterUI
+  from "../components/calculators/CurrencyConverterUI";
+
+import TipCalculatorUI
+  from "../components/calculators/TipCalculatorUI";
+
+import FuelCostCalculatorUI
+  from "../components/calculators/FuelCostCalculatorUI";
+
+import ElectricityBillCalculatorUI
+  from "../components/calculators/ElectricityBillCalculatorUI";
+  
+import TaxCalculatorUI 
+  from "../components/calculators/TaxCalculatorUI";
+
 export default function DynamicCalculator() {
 
   const { slug } = useParams();
@@ -246,6 +261,21 @@ export default function DynamicCalculator() {
 
     case "body-surface-area":
         return <BodySurfaceAreaCalculatorUI />;
+
+    case "currency-converter":
+        return <CurrencyConverterUI />;
+
+    case "tip-calculator":
+        return <TipCalculatorUI />;
+
+    case "fuel-cost-calculator":
+        return <FuelCostCalculatorUI />;
+
+    case "electricity-bill-calculator":
+        return <ElectricityBillCalculatorUI />;
+
+    case "tax-calculator":
+        return <TaxCalculatorUI />
   
   
 
