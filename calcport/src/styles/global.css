@@ -1589,3 +1589,310 @@ a {
     min-height: 120px;
   }
 }
+/* -------------------- */
+/* SELECT DROPDOWNS */
+/* -------------------- */
+
+.input-group select {
+  width: 100%;
+  min-height: 50px;
+
+  padding: 13px 42px 13px 15px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+
+  background-color: var(--input-bg);
+  color: var(--text-color);
+
+  outline: none;
+
+  font-size: 16px;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  appearance: none;
+
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--secondary-text) 50%),
+    linear-gradient(135deg, var(--secondary-text) 50%, transparent 50%);
+
+  background-position:
+    calc(100% - 20px) 22px,
+    calc(100% - 14px) 22px;
+
+  background-size:
+    6px 6px,
+    6px 6px;
+
+  background-repeat: no-repeat;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-group select:hover {
+  border-color: var(--primary-color);
+}
+
+.input-group select:focus {
+  border-color: var(--primary-color);
+
+  box-shadow:
+    0 0 0 3px
+    rgba(37, 99, 235, 0.12);
+}
+
+.input-group select option {
+  background: var(--input-bg);
+  color: var(--text-color);
+}
+
+/* -------------------- */
+/* SCIENTIFIC CALCULATOR */
+/* -------------------- */
+
+.scientific-calculator {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.scientific-display {
+  width: 100%;
+  min-height: 110px;
+  box-sizing: border-box;
+
+  padding: 18px 20px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+
+  background: var(--input-bg);
+  color: var(--text-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  margin-bottom: 18px;
+
+  overflow: hidden;
+}
+
+.scientific-expression {
+  width: 100%;
+
+  min-height: 22px;
+
+  color: var(--secondary-text);
+
+  font-size: 14px;
+  text-align: right;
+
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scientific-value {
+  width: 100%;
+
+  margin-top: 6px;
+
+  color: var(--text-color);
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  text-align: right;
+
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+/* KEYPAD */
+
+.scientific-keypad {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.scientific-row {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 10px;
+}
+
+
+/* BUTTON */
+
+.scientific-button {
+  min-height: 58px;
+
+  padding: 10px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+
+  background: var(--card-bg);
+  color: var(--text-color);
+
+  font-size: 17px;
+  font-weight: 600;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.scientific-button:hover {
+  border-color: var(--primary-color);
+
+  box-shadow:
+    0 5px 14px rgba(0, 0, 0, 0.06);
+
+  transform: translateY(-1px);
+}
+
+.scientific-button:active {
+  transform: translateY(0);
+}
+
+
+/* SCIENTIFIC FUNCTIONS */
+
+.scientific-function {
+  color: var(--primary-color);
+
+  background: var(--input-bg);
+}
+
+
+/* EQUALS */
+
+.scientific-equals {
+  background: var(--primary-color);
+  color: #ffffff;
+
+  border-color: var(--primary-color);
+}
+
+.scientific-equals:hover {
+  background: var(--primary-color);
+
+  color: #ffffff;
+}
+
+
+/* CURRENT RESULT */
+
+.scientific-calculator + .result-box {
+  margin-top: 20px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .scientific-display {
+    min-height: 100px;
+
+    padding: 16px;
+
+    border-radius: 14px;
+  }
+
+  .scientific-value {
+    font-size: 27px;
+  }
+
+  .scientific-keypad {
+    gap: 8px;
+  }
+
+  .scientific-row {
+    gap: 8px;
+  }
+
+  .scientific-button {
+    min-height: 52px;
+
+    padding: 8px 5px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+  }
+
+}
+
+
+/* SMALL PHONES */
+
+@media (max-width: 380px) {
+
+  .scientific-row {
+    gap: 6px;
+  }
+
+  .scientific-button {
+    min-height: 48px;
+
+    padding: 6px 3px;
+
+    font-size: 14px;
+  }
+
+  .scientific-value {
+    font-size: 24px;
+  }
+
+}
+
+/* -------------------- */
+/* TIME INPUT */
+/* -------------------- */
+
+.input-group input[type="time"] {
+  appearance: none;
+  -webkit-appearance: none;
+
+  cursor: pointer;
+}
+
+.input-group input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.input-group input[type="time"]:hover {
+  border-color: var(--primary-color);
+}
+
+.input-group input[type="time"]:focus {
+  border-color: var(--primary-color);
+
+  box-shadow:
+    0 0 0 3px
+    rgba(37, 99, 235, 0.12);
+}
+/* -------------------- */
+/* input field in statistic calculator */
+/* -------------------- */

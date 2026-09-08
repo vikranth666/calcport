@@ -1863,4 +1863,951 @@ export const calculatorsConfig = [
   ],
 },
 
+// STATISTIC
+
+{
+  id: "statistics",
+  slug: "statistics-calculator",
+  title: "Statistics Calculator",
+  description:
+    "Calculate mean, median, mode, range, sum, minimum, and maximum of a data set.",
+  category: "Math",
+  type: "statistics",
+  icon: "📊",
+  popular: true,
+
+  seo: {
+    title:
+      "Statistics Calculator - Mean, Median, Mode & Range | CalcPort",
+
+    description:
+      "Calculate mean, median, mode, range, sum, minimum, and maximum with CalcPort's free statistics calculator.",
+
+    keywords: [
+      "statistics calculator",
+      "statistics calculator online",
+      "mean median mode calculator",
+      "mean calculator",
+      "median calculator",
+      "mode calculator",
+      "range calculator",
+      "average statistics calculator",
+    ],
+
+    intro:
+      "Use our free statistics calculator to analyze a data set and calculate the mean, median, mode, range, sum, minimum, maximum, and number of values.",
+
+    sections: [
+      {
+        title: "How to Use the Statistics Calculator",
+        content:
+          "Enter a list of numbers separated by commas. The calculator will analyze the data and display common statistical measures.",
+      },
+      {
+        title: "What Is the Mean?",
+        content:
+          "The mean is the average of a data set. It is calculated by adding all values together and dividing the sum by the number of values.",
+      },
+      {
+        title: "What Is the Median?",
+        content:
+          "The median is the middle value of an ordered data set. If there are an even number of values, the median is the average of the two middle values.",
+      },
+      {
+        title: "What Is the Mode?",
+        content:
+          "The mode is the value or values that occur most frequently in a data set. A data set can have more than one mode or no mode.",
+      },
+      {
+        title: "What Is the Range?",
+        content:
+          "The range is the difference between the largest and smallest values in a data set.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What does a statistics calculator calculate?",
+      answer:
+        "It can calculate the mean, median, mode, range, sum, minimum, maximum, and count of a data set.",
+    },
+    {
+      question: "How do I enter numbers?",
+      answer:
+        "Enter numbers separated by commas, such as 10, 20, 20, 30, 40.",
+    },
+    {
+      question: "What is the difference between mean and median?",
+      answer:
+        "The mean is the arithmetic average of all values, while the median is the middle value after the data is arranged in order.",
+    },
+    {
+      question: "Can a data set have multiple modes?",
+      answer:
+        "Yes. If multiple values occur with the same highest frequency, the data set can have multiple modes.",
+    },
+  ],
+},
+
+// UNIT CONVERTER
+
+{
+  id: "unit-converter",
+  slug: "unit-converter",
+  title: "Unit Converter",
+  description:
+    "Convert length, weight, temperature, area, volume, speed, time, and data units online.",
+  category: "Converters",
+  type: "unit-converter",
+  icon: "🔄",
+  popular: true,
+
+  seo: {
+    title:
+      "Unit Converter - Length, Weight, Temperature & More | CalcPort",
+
+    description:
+      "Convert units online with CalcPort's free unit converter. Convert length, weight, temperature, area, volume, speed, time, and data units easily.",
+
+    keywords: [
+      "unit converter",
+      "unit converter online",
+      "length converter",
+      "weight converter",
+      "temperature converter",
+      "area converter",
+      "volume converter",
+      "speed converter",
+      "time converter",
+      "data converter",
+    ],
+
+    intro:
+      "Use our free unit converter to quickly convert between common units of length, weight, temperature, area, volume, speed, time, and digital data.",
+
+    sections: [
+      {
+        title: "How to Use the Unit Converter",
+        content:
+          "Select a conversion category, choose the units you want to convert between, enter a value, and the calculator will instantly display the converted result.",
+      },
+      {
+        title: "Length Conversion",
+        content:
+          "Convert common length units such as millimeters, centimeters, meters, kilometers, inches, feet, yards, and miles.",
+      },
+      {
+        title: "Weight Conversion",
+        content:
+          "Convert between units such as milligrams, grams, kilograms, ounces, pounds, and tonnes.",
+      },
+      {
+        title: "Temperature Conversion",
+        content:
+          "Convert temperatures between Celsius, Fahrenheit, and Kelvin.",
+      },
+      {
+        title: "Area and Volume Conversion",
+        content:
+          "Convert common area and volume units for everyday, academic, construction, and other practical calculations.",
+      },
+      {
+        title: "Speed, Time, and Data Conversion",
+        content:
+          "Convert speeds, time units, and digital storage units using the appropriate conversion category.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What can this unit converter convert?",
+      answer:
+        "It can convert length, weight, temperature, area, volume, speed, time, and digital data units.",
+    },
+    {
+      question: "How do I convert one unit to another?",
+      answer:
+        "Select a category, choose the starting unit and target unit, enter a value, and the converter will calculate the result automatically.",
+    },
+    {
+      question: "Can I convert Celsius to Fahrenheit?",
+      answer:
+        "Yes. Select Temperature, choose Celsius as the starting unit and Fahrenheit as the target unit.",
+    },
+    {
+      question: "Can I convert kilometers to miles?",
+      answer:
+        "Yes. Select Length, choose kilometers and miles, and enter the distance you want to convert.",
+    },
+    {
+      question: "Is the unit converter free?",
+      answer:
+        "Yes. CalcPort's unit converter is free to use online.",
+    },
+  ],
+},
+
+// SCIENTIFIC 
+
+{
+  id: "scientific-calculator",
+  slug: "scientific-calculator",
+  title: "Scientific Calculator",
+  description:
+    "Use CalcPort's free online scientific calculator for advanced mathematical calculations, trigonometry, logarithms, powers, roots, and more.",
+  category: "Math",
+  type: "scientific-calculator",
+  icon: "🧮",
+  popular: true,
+
+  seo: {
+    title:
+      "Scientific Calculator - Advanced Online Calculator | CalcPort",
+
+    description:
+      "Use CalcPort's free scientific calculator for trigonometry, logarithms, powers, roots, percentages, and advanced mathematical calculations.",
+
+    keywords: [
+      "scientific calculator",
+      "scientific calculator online",
+      "online scientific calculator",
+      "advanced calculator",
+      "math calculator",
+      "trigonometry calculator",
+      "log calculator",
+      "power calculator",
+      "square root calculator",
+    ],
+
+    intro:
+      "Use this free online scientific calculator to perform advanced mathematical calculations including trigonometry, logarithms, powers, roots, percentages, and more.",
+
+    sections: [
+      {
+        title: "How to Use the Scientific Calculator",
+        content:
+          "Enter numbers and mathematical operations using the calculator buttons. You can perform basic arithmetic as well as advanced calculations such as trigonometric functions, logarithms, powers, and square roots.",
+      },
+
+      {
+        title: "Scientific Calculator Functions",
+        content:
+          "The calculator supports common scientific functions including sine, cosine, tangent, logarithms, square roots, powers, percentages, and mathematical constants.",
+      },
+
+      {
+        title: "Trigonometric Calculations",
+        content:
+          "Calculate sine, cosine, and tangent values using the scientific calculator. Trigonometric functions can be useful for mathematics, engineering, physics, and geometry calculations.",
+      },
+
+      {
+        title: "Powers and Roots",
+        content:
+          "Use powers and square roots to solve common mathematical problems quickly. The calculator can handle both basic arithmetic and more advanced expressions.",
+      },
+
+      {
+        title: "Is the Scientific Calculator Free?",
+        content:
+          "Yes. CalcPort's scientific calculator is free to use online without installing additional software.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a scientific calculator?",
+      answer:
+        "A scientific calculator is an advanced calculator that supports mathematical functions such as trigonometry, logarithms, powers, roots, and other scientific calculations.",
+    },
+
+    {
+      question: "Can I calculate sine, cosine, and tangent?",
+      answer:
+        "Yes. The CalcPort scientific calculator supports common trigonometric functions including sine, cosine, and tangent.",
+    },
+
+    {
+      question: "Can I calculate logarithms?",
+      answer:
+        "Yes. You can use logarithmic functions for common mathematical calculations.",
+    },
+
+    {
+      question: "Can I calculate powers and square roots?",
+      answer:
+        "Yes. The scientific calculator supports powers and square root calculations.",
+    },
+
+    {
+      question: "Is this scientific calculator free?",
+      answer:
+        "Yes. CalcPort's scientific calculator is free to use online.",
+    },
+  ],
+},
+
+// TIME-DURATION
+
+{
+  id: "time-duration",
+  slug: "time-duration",
+  title: "Time Duration Calculator",
+  description:
+    "Calculate the exact duration between two times in hours, minutes, and seconds.",
+  category: "Date & Time",
+  type: "time-duration",
+  icon: "⏱️",
+  popular: true,
+
+  seo: {
+    title:
+      "Time Duration Calculator - Calculate Time Difference | CalcPort",
+
+    description:
+      "Calculate the duration between two times in hours, minutes, and seconds with CalcPort's free online time duration calculator.",
+
+    keywords: [
+      "time duration calculator",
+      "time difference calculator",
+      "calculate time difference",
+      "hours calculator",
+      "minutes calculator",
+      "time duration",
+      "time interval calculator",
+      "hours between times",
+    ],
+
+    intro:
+      "Use our free time duration calculator to calculate the exact amount of time between two times. Quickly find hours, minutes, and seconds between a start time and an end time.",
+
+    sections: [
+      {
+        title: "How to Use the Time Duration Calculator",
+        content:
+          "Enter a start time and an end time. The calculator will automatically calculate the duration between them in hours, minutes, and seconds.",
+      },
+
+      {
+        title: "Overnight Time Calculation",
+        content:
+          "If the end time is earlier than the start time, the calculator treats the end time as occurring on the following day. This makes it useful for overnight shifts and other time intervals crossing midnight.",
+      },
+
+      {
+        title: "Total Time",
+        content:
+          "The calculator displays the duration in hours and minutes along with the total number of minutes and seconds.",
+      },
+
+      {
+        title: "Where Can a Time Duration Calculator Be Used?",
+        content:
+          "A time duration calculator can be useful for work shifts, study sessions, travel planning, exercise sessions, project tracking, and everyday time calculations.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is a time duration calculator?",
+      answer:
+        "A time duration calculator calculates the amount of time between a start time and an end time.",
+    },
+
+    {
+      question: "Can it calculate time across midnight?",
+      answer:
+        "Yes. If the end time is earlier than the start time, the calculator treats it as the following day.",
+    },
+
+    {
+      question: "Can I calculate total minutes?",
+      answer:
+        "Yes. The calculator shows the total duration in minutes as well as hours, minutes, and seconds.",
+    },
+
+    {
+      question: "Can I use it for work shifts?",
+      answer:
+        "Yes. It can be used to calculate the duration of regular or overnight work shifts.",
+    },
+
+    {
+      question: "Is the time duration calculator free?",
+      answer:
+        "Yes. CalcPort's time duration calculator is free to use online.",
+    },
+  ],
+},
+
+// BMR
+
+{
+  id: "bmr",
+
+  slug: "bmr-calculator",
+
+  title: "BMR Calculator",
+
+  description:
+    "Calculate your Basal Metabolic Rate and estimate how many calories your body burns at rest.",
+
+  category: "Health",
+
+  type: "bmr",
+
+  icon: "🔥",
+
+  popular: true,
+
+  seo: {
+    title:
+      "BMR Calculator - Calculate Your Basal Metabolic Rate | CalcPort",
+
+    description:
+      "Use CalcPort's free BMR Calculator to estimate how many calories your body burns at rest.",
+
+    keywords: [
+      "bmr calculator",
+      "basal metabolic rate calculator",
+      "calculate bmr",
+      "calories burned at rest",
+    ],
+
+    intro:
+      "Our free BMR Calculator helps estimate your Basal Metabolic Rate, which is the approximate number of calories your body burns while at rest.",
+
+    sections: [
+      {
+        title: "What Is BMR?",
+        content:
+          "BMR stands for Basal Metabolic Rate. It estimates the number of calories your body needs to perform basic functions such as breathing, circulation, and maintaining body temperature while at rest.",
+      },
+      {
+        title: "How Is BMR Calculated?",
+        content:
+          "BMR is estimated using factors such as gender, age, weight, and height.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What does BMR mean?",
+      answer:
+        "BMR means Basal Metabolic Rate, which estimates how many calories your body burns while at rest.",
+    },
+    {
+      question:
+        "Is BMR the same as daily calorie needs?",
+      answer:
+        "No. BMR estimates calories burned at rest, while daily calorie needs also depend on your activity level.",
+    },
+    {
+      question:
+        "What information is needed to calculate BMR?",
+      answer:
+        "BMR is estimated using factors such as gender, age, weight, and height.",
+    },
+  ],
+},
+
+// IDEAL-WEIGHT
+
+{
+  id: "ideal-weight",
+
+  slug: "ideal-weight-calculator",
+
+  title: "Ideal Weight Calculator",
+
+  description:
+    "Estimate a healthy weight range based on your height.",
+
+  category: "Health",
+
+  type: "ideal-weight",
+
+  icon: "⚖️",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Ideal Weight Calculator - Find Your Healthy Weight Range | CalcPort",
+
+    description:
+      "Use CalcPort's Ideal Weight Calculator to estimate a healthy weight range based on your height.",
+
+    keywords: [
+      "ideal weight calculator",
+      "healthy weight calculator",
+      "ideal body weight",
+      "healthy weight range",
+    ],
+
+    intro:
+      "Our free Ideal Weight Calculator helps estimate a healthy weight range based on your height using a standard BMI range.",
+
+    sections: [
+      {
+        title: "What Is an Ideal Weight?",
+        content:
+          "Ideal weight is not one exact number. A healthy weight range can vary depending on height, body composition, age, and other individual factors.",
+      },
+      {
+        title: "How Is Healthy Weight Estimated?",
+        content:
+          "This calculator estimates a weight range using height and a standard BMI range.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is my ideal weight?",
+      answer:
+        "Ideal weight varies between individuals. This calculator provides an estimated healthy weight range based on height.",
+    },
+    {
+      question:
+        "Does age affect ideal weight?",
+      answer:
+        "Many factors can affect a healthy weight, including age and body composition.",
+    },
+    {
+      question:
+        "Is ideal weight one exact number?",
+      answer:
+        "No. A healthy weight is usually better understood as a range rather than one exact number.",
+    },
+  ],
+},
+
+// WATER INTAKE
+
+{
+  id: "water-intake",
+
+  slug: "water-intake-calculator",
+
+  title: "Water Intake Calculator",
+
+  description:
+    "Estimate your daily water intake based on your body weight and activity level.",
+
+  category: "Health",
+
+  type: "water-intake",
+
+  icon: "💧",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Water Intake Calculator - Calculate Daily Water Needs | CalcPort",
+
+    description:
+      "Use CalcPort's Water Intake Calculator to estimate your daily water intake based on weight and activity level.",
+
+    keywords: [
+      "water intake calculator",
+      "daily water intake",
+      "how much water should i drink",
+      "water calculator",
+    ],
+
+    intro:
+      "Our free Water Intake Calculator provides an estimate of your daily water needs based on your body weight and physical activity.",
+
+    sections: [
+      {
+        title: "How Much Water Should You Drink?",
+        content:
+          "Daily water needs can vary depending on body size, physical activity, climate, diet, and other factors.",
+      },
+      {
+        title: "How Does This Water Calculator Work?",
+        content:
+          "This calculator estimates daily water intake using body weight and adds an estimate based on activity level.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "How much water should I drink every day?",
+      answer:
+        "Water needs vary between individuals. This calculator provides an estimate based on body weight and activity.",
+    },
+    {
+      question:
+        "Does exercise increase water needs?",
+      answer:
+        "Physical activity can increase fluid needs due to fluid loss through sweating.",
+    },
+    {
+      question:
+        "Is this water intake result exact?",
+      answer:
+        "No. It is an estimate and individual water needs can vary.",
+    },
+  ],
+},
+
+// Pregnancy Due Date
+
+{
+  id: "pregnancy-due-date",
+
+  slug: "pregnancy-due-date-calculator",
+
+  title: "Pregnancy Due Date Calculator",
+
+  description:
+    "Estimate your baby's due date based on the first day of your last menstrual period.",
+
+  category: "Medical",
+
+  type: "pregnancy-due-date",
+
+  icon: "🤰",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Pregnancy Due Date Calculator | CalcPort",
+
+    description:
+      "Estimate your pregnancy due date based on the first day of your last menstrual period.",
+
+    keywords: [
+      "pregnancy due date calculator",
+      "due date calculator",
+      "baby due date calculator",
+    ],
+
+    intro:
+      "This calculator provides an estimated pregnancy due date based on the first day of your last menstrual period. Pregnancy dates are estimates and may differ from clinical assessment.",
+
+    sections: [
+      {
+        title: "How Is the Due Date Estimated?",
+        content:
+          "A common estimate adds approximately 280 days, or 40 weeks, to the first day of the last menstrual period.",
+      },
+      {
+        title: "Is the Due Date Exact?",
+        content:
+          "No. A due date is an estimate, and the actual delivery date can vary.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How is a pregnancy due date calculated?",
+      answer:
+        "A common estimate is based on approximately 280 days or 40 weeks from the first day of the last menstrual period.",
+    },
+    {
+      question: "Is my due date exact?",
+      answer:
+        "No. A due date is an estimate and actual delivery can occur earlier or later.",
+    },
+    {
+      question: "Should I rely only on an online calculator?",
+      answer:
+        "No. For pregnancy care and medical guidance, consult a qualified healthcare professional.",
+    },
+  ],
+},
+
+// Pregnancy Week
+
+{
+  id: "pregnancy-week",
+
+  slug: "pregnancy-week-calculator",
+
+  title: "Pregnancy Week Calculator",
+
+  description:
+    "Estimate your current pregnancy week based on your last menstrual period.",
+
+  category: "Medical",
+
+  type: "pregnancy-week",
+
+  icon: "📅",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Pregnancy Week Calculator | CalcPort",
+
+    description:
+      "Estimate your current pregnancy week based on the first day of your last menstrual period.",
+
+    keywords: [
+      "pregnancy week calculator",
+      "how many weeks pregnant",
+      "pregnancy calculator",
+    ],
+
+    intro:
+      "This calculator estimates your current pregnancy week based on the first day of your last menstrual period.",
+
+    sections: [
+      {
+        title: "How Are Pregnancy Weeks Calculated?",
+        content:
+          "Pregnancy is commonly dated from the first day of the last menstrual period and is often described as lasting about 40 weeks.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How many weeks is a full-term pregnancy?",
+      answer:
+        "Pregnancy duration varies, but a typical pregnancy is often estimated at around 40 weeks from the last menstrual period.",
+    },
+    {
+      question: "Is this pregnancy week calculation exact?",
+      answer:
+        "No. It provides an estimate and clinical dating may differ.",
+    },
+  ],
+},
+
+// Ovulation
+
+{
+  id: "ovulation",
+
+  slug: "ovulation-calculator",
+
+  title: "Ovulation Calculator",
+
+  description:
+    "Estimate your ovulation date and fertile window based on your menstrual cycle.",
+
+  category: "Medical",
+
+  type: "ovulation",
+
+  icon: "🌸",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Ovulation Calculator - Estimate Fertile Days | CalcPort",
+
+    description:
+      "Estimate your ovulation date and fertile window based on your menstrual cycle information.",
+
+    keywords: [
+      "ovulation calculator",
+      "fertile days calculator",
+      "ovulation date",
+      "fertile window",
+    ],
+
+    intro:
+      "This calculator estimates an ovulation date and fertile window using menstrual cycle information. Results are estimates and cycle timing can vary.",
+
+    sections: [
+      {
+        title: "How Is Ovulation Estimated?",
+        content:
+          "Ovulation timing can vary between individuals and cycles. This calculator provides an estimate based on the menstrual cycle length.",
+      },
+      {
+        title: "What Is the Fertile Window?",
+        content:
+          "The fertile window refers to the days during a menstrual cycle when pregnancy is more likely to occur.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "Is the ovulation date exact?",
+      answer:
+        "No. Ovulation timing can vary between individuals and between cycles.",
+    },
+    {
+      question: "Can this calculator be used as birth control?",
+      answer:
+        "No. Calendar estimates are not a reliable method of contraception. Consult a qualified healthcare professional for contraception advice.",
+    },
+  ],
+},
+
+// HEART RATE CALCULATOR
+
+{
+  id: "heart-rate",
+
+  slug: "heart-rate-calculator",
+
+  title: "Heart Rate Calculator",
+
+  description:
+    "Estimate your maximum heart rate and target heart rate zones based on your age.",
+
+  category: "Medical",
+
+  type: "heart-rate",
+
+  icon: "❤️",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Heart Rate Calculator - Estimate Maximum and Target Heart Rate | CalcPort",
+
+    description:
+      "Use CalcPort's free Heart Rate Calculator to estimate your maximum heart rate and target exercise heart rate zones.",
+
+    keywords: [
+      "heart rate calculator",
+      "maximum heart rate calculator",
+      "target heart rate calculator",
+      "exercise heart rate zone",
+    ],
+
+    intro:
+      "Our Heart Rate Calculator estimates your maximum heart rate and general target heart rate zones based on your age. Results are estimates and are not a medical diagnosis.",
+
+    sections: [
+      {
+        title: "How Is Maximum Heart Rate Estimated?",
+        content:
+          "A commonly used estimate subtracts your age from 220. Other formulas also exist, and individual heart rates can vary.",
+      },
+      {
+        title: "What Is a Target Heart Rate Zone?",
+        content:
+          "A target heart rate zone is an estimated range that may be used during exercise. Appropriate exercise intensity varies between individuals.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "How is maximum heart rate calculated?",
+      answer:
+        "A common estimate is 220 minus your age, although individual results can vary.",
+    },
+    {
+      question:
+        "What is a target heart rate zone?",
+      answer:
+        "It is an estimated heart rate range often used to guide exercise intensity.",
+    },
+    {
+      question:
+        "Is this calculator a medical diagnosis?",
+      answer:
+        "No. This calculator provides general estimates only. Consult a qualified healthcare professional for medical advice.",
+    },
+  ],
+},
+
+// Body Surface Area
+
+{
+  id: "body-surface-area",
+
+  slug: "body-surface-area-calculator",
+
+  title: "Body Surface Area Calculator",
+
+  description:
+    "Calculate your estimated body surface area using height and weight.",
+
+  category: "Medical",
+
+  type: "body-surface-area",
+
+  icon: "📏",
+
+  popular: false,
+
+  seo: {
+    title:
+      "Body Surface Area Calculator - Calculate BSA | CalcPort",
+
+    description:
+      "Use CalcPort's Body Surface Area Calculator to estimate body surface area using height and weight.",
+
+    keywords: [
+      "body surface area calculator",
+      "bsa calculator",
+      "mosteller formula",
+      "calculate body surface area",
+    ],
+
+    intro:
+      "Our Body Surface Area Calculator estimates body surface area using height and weight. This calculator uses the Mosteller formula.",
+
+    sections: [
+      {
+        title: "What Is Body Surface Area?",
+        content:
+          "Body Surface Area, or BSA, is an estimate of the external surface area of the human body.",
+      },
+      {
+        title: "How Is BSA Calculated?",
+        content:
+          "This calculator uses the Mosteller formula, which estimates BSA using height in centimeters and weight in kilograms.",
+      },
+      {
+        title: "Important Medical Note",
+        content:
+          "BSA is used in some clinical contexts, but calculator results alone should not be used to make medical or treatment decisions.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is BSA?",
+      answer:
+        "BSA stands for Body Surface Area, which estimates the external surface area of the human body.",
+    },
+    {
+      question:
+        "Which formula does this calculator use?",
+      answer:
+        "This calculator uses the Mosteller formula.",
+    },
+    {
+      question:
+        "Can I use BSA results for medical decisions?",
+      answer:
+        "No. Medical decisions should be made with appropriate clinical guidance from a qualified healthcare professional.",
+    },
+  ],
+},
+
+
+
+
 ];

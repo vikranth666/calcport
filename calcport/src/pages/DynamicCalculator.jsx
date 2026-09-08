@@ -90,6 +90,42 @@ import DateDifferenceCalculatorUI
 import CalorieCalculatorUI
   from "../components/calculators/CalorieCalculatorUI";
 
+import StatisticsCalculatorUI
+  from "../components/calculators/StatisticsCalculatorUI";
+
+import UnitConverterUI
+  from "../components/calculators/UnitConverterUI";
+
+import ScientificCalculatorUI 
+  from "../components/calculators/ScientificCalculatorUI";
+
+import TimeDurationUI
+  from "../components/calculators/TimeDurationUI";
+
+import BmrCalculatorUI
+  from "../components/calculators/BmrCalculatorUI"
+
+import IdealWeightCalculatorUI 
+  from "../components/calculators/IdealWeightCalculatorUI";
+
+import WaterIntakeCalculatorUI
+  from "../components/calculators/WaterIntakeCalculatorUI";
+
+import PregnancyDueDateCalculatorUI
+  from "../components/calculators/PregnancyDueDateCalculatorUI";
+
+import PregnancyWeekCalculatorUI
+  from "../components/calculators/PregnancyWeekCalculatorUI";
+
+import OvulationCalculatorUI
+  from "../components/calculators/OvulationCalculatorUI";
+
+import HeartRateCalculatorUI
+  from "../components/calculators/HeartRateCalculatorUI";
+
+import BodySurfaceAreaCalculatorUI
+  from "../components/calculators/BodySurfaceAreaCalculatorUI";
+
 export default function DynamicCalculator() {
 
   const { slug } = useParams();
@@ -174,8 +210,42 @@ export default function DynamicCalculator() {
 
     case "calorie":
       return <CalorieCalculatorUI />;
-  
-  
+
+    case "statistics":
+      return <StatisticsCalculatorUI />;
+
+    case "unit-converter":
+      return <UnitConverterUI />;
+
+    case "scientific-calculator":
+        return <ScientificCalculatorUI />
+
+    case "time-duration":
+        return <TimeDurationUI />;
+
+    case "bmr":
+        return <BmrCalculatorUI />;
+
+    case "ideal-weight":
+        return <IdealWeightCalculatorUI/>
+
+    case "water-intake":
+        return <WaterIntakeCalculatorUI />;
+
+    case "pregnancy-due-date":
+        return <PregnancyDueDateCalculatorUI />;
+
+    case "pregnancy-week":
+        return <PregnancyWeekCalculatorUI />;
+
+    case "ovulation":
+        return <OvulationCalculatorUI />;
+
+    case "heart-rate":
+        return <HeartRateCalculatorUI />;
+
+    case "body-surface-area":
+        return <BodySurfaceAreaCalculatorUI />;
   
   
 
