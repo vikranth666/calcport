@@ -57,6 +57,39 @@ import CompoundInterestCalculatorUI
 import SipCalculatorUI
   from "../components/calculators/SipCalculatorUI";
 
+import FdCalculatorUI
+  from "../components/calculators/FdCalculatorUI";
+
+import RdCalculatorUI
+  from "../components/calculators/RdCalculatorUI";
+
+import LoanCalculatorUI
+  from "../components/calculators/LoanCalculatorUI";
+
+import SalaryCalculatorUI
+  from "../components/calculators/SalaryCalculatorUI";
+
+import FractionCalculatorUI
+  from "../components/calculators/FractionCalculatorUI";
+
+import GcdLcmCalculatorUI
+  from "../components/calculators/GcdLcmCalculatorUI";
+
+import DecimalCalculatorUI
+  from "../components/calculators/DecimalCalculatorUI";
+
+import SquareRootCalculatorUI
+  from "../components/calculators/SquareRootCalculatorUI";
+
+import PowerCalculatorUI
+  from "../components/calculators/PowerCalculatorUI";
+
+import DateDifferenceCalculatorUI
+  from "../components/calculators/DateDifferenceCalculatorUI";
+
+import CalorieCalculatorUI
+  from "../components/calculators/CalorieCalculatorUI";
+
 export default function DynamicCalculator() {
 
   const { slug } = useParams();
@@ -108,6 +141,41 @@ export default function DynamicCalculator() {
 
     case "sip":
       return <SipCalculatorUI />
+
+    case "fd":
+      return <FdCalculatorUI />
+
+    case "rd":
+      return <RdCalculatorUI />
+
+    case "loan":
+      return <LoanCalculatorUI />
+
+    case "salary":
+      return <SalaryCalculatorUI />
+
+    case "fraction":
+      return <FractionCalculatorUI />
+
+    case "gcd-lcm":
+      return <GcdLcmCalculatorUI />;
+
+    case "decimal":
+      return <DecimalCalculatorUI />;
+
+    case "square-root":
+      return <SquareRootCalculatorUI />;
+
+    case "power":
+      return <PowerCalculatorUI />;
+
+    case "date-difference":
+      return <DateDifferenceCalculatorUI />;
+
+    case "calorie":
+      return <CalorieCalculatorUI />;
+  
+  
   
   
 
