@@ -1970,5 +1970,30 @@ a {
 
 }
 /* -------------------- */
-/* input field in statistic calculator */
+/*  calculator  section */
 /* -------------------- */
+
+.calculator-section-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.calculator-section-action a {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.calculator-section-action a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}

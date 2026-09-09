@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -18,8 +16,6 @@ import CalculatorSearch
 
 export default function Home() {
 
-  const [search, setSearch] = useState("");
-
   return (
     <>
 
@@ -37,12 +33,12 @@ export default function Home() {
     for finance, health, math and more.
   </p>
 
-  <CalculatorSearch />
+  <CalculatorSearch/>
 </section>
 
       {/* CALCULATORS */}
 
-      <CalculatorSection search={search} />
+      <CalculatorSection  />
 
        {/* CATEGORY SECTION */}
 

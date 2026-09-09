@@ -3,16 +3,7 @@ import { calculatorsConfig } from "../config/calculatorsConfig";
 import CalculatorCard
 from "./CalculatorCard";
 
-export default function CalculatorSection({
-  search,
-}) {
-
-  const filteredCalculators =
-    calculatorsConfig.filter((calculator) =>
-      calculator.title
-        .toLowerCase()
-        .includes(search.toLowerCase())
-    );
+export default function CalculatorSection() {
 
   return (
     <section className="calculator-section">
@@ -30,30 +21,27 @@ export default function CalculatorSection({
 
       </div>
 
-      <div className="calculator-grid">
+  <div className="calculator-grid">
 
-        {filteredCalculators.length > 0 ? (
+  {calculatorsConfig
+    .filter((calculator) => calculator.popular === true)
+    .slice(0, 8)
+    .map((calculator) => (
 
-          filteredCalculators.map((calculator) => (
+      <CalculatorCard
+        key={calculator.id}
+        calculator={calculator}
+      />
 
-            <CalculatorCard
-              key={calculator.id}
-              calculator={calculator}
-            />
+    ))}
 
-          ))
+</div>
 
-        ) : (
-
-          <div className="no-results">
-
-            No calculators found.
-
-          </div>
-
-        )}
-
-      </div>
+<div className="calculator-section-action">
+  <a href="/calculators">
+    View All Calculators →
+  </a>
+</div>
 
     </section>
   );
