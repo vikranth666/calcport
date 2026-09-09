@@ -33,17 +33,18 @@ export default function Calculators() {
   const filteredCalculators = useMemo(() => {
     return calculatorsConfig.filter(
       (calculator) => {
-        const matchesSearch =
-          calculator.title
-            .toLowerCase()
-            .includes(
-              search.toLowerCase()
-            ) ||
-          calculator.description
-            .toLowerCase()
-            .includes(
-              search.toLowerCase()
-            );
+        const searchTerm = search.toLowerCase();
+
+const matchesSearch =
+  calculator.title
+    .toLowerCase()
+    .includes(searchTerm) ||
+  calculator.description
+    .toLowerCase()
+    .includes(searchTerm) ||
+  calculator.category
+    .toLowerCase()
+    .includes(searchTerm);
 
         const matchesCategory =
           category === "All" ||

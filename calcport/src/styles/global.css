@@ -1997,3 +1997,71 @@ a {
   background-color: var(--primary-color);
   color: white;
 }
+
+/* -------------------- */
+/* privacy policy */
+/* -------------------- */
+.legal-page {
+  padding: 60px 20px;
+}
+
+.legal-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.legal-container h1 {
+  margin-bottom: 10px;
+}
+
+.legal-container h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.legal-container p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.legal-updated {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* -------------------- */
+/*  MEDICAL UNIT CONVERTER */
+/* -------------------- */
+
+.swap-button {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 20px;
+
+  border: 1px solid var(--border-color);
+
+  border-radius: 10px;
+
+  background: transparent;
+
+  color: var(--text-color);
+
+  font: inherit;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+
+.swap-button:hover {
+
+  transform: translateY(-1px);
+
+}

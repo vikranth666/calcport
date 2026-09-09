@@ -137,9 +137,33 @@ import FuelCostCalculatorUI
 
 import ElectricityBillCalculatorUI
   from "../components/calculators/ElectricityBillCalculatorUI";
-  
+
 import TaxCalculatorUI 
   from "../components/calculators/TaxCalculatorUI";
+
+import MapCalculatorUI
+  from "../components/calculators/MapCalculatorUI";
+
+import GcsCalculatorUI
+  from "../components/calculators/GcsCalculatorUI";
+
+import AnionGapCalculatorUI
+  from "../components/calculators/AnionGapCalculatorUI";
+
+import MedicalUnitConverterUI
+  from "../components/calculators/MedicalUnitConverterUI";
+
+import QtcCalculatorUI
+  from "../components/calculators/QtcCalculatorUI";
+
+import CorrectedCalciumCalculatorUI
+  from "../components/calculators/CorrectedCalciumCalculatorUI";
+
+import SerumOsmolalityCalculatorUI
+  from "../components/calculators/SerumOsmolalityCalculatorUI";
+
+import AbgCalculatorUI
+  from "../components/calculators/AbgCalculatorUI";
 
 export default function DynamicCalculator() {
 
@@ -276,6 +300,30 @@ export default function DynamicCalculator() {
 
     case "tax-calculator":
         return <TaxCalculatorUI />
+
+    case "map":
+        return <MapCalculatorUI />;
+
+    case "gcs":
+        return <GcsCalculatorUI />;
+
+    case "anion-gap":
+        return <AnionGapCalculatorUI />;
+
+    case "medical-unit-converter":
+        return <MedicalUnitConverterUI />;
+
+    case "qtc":
+        return <QtcCalculatorUI />;
+
+    case "corrected-calcium":
+        return <CorrectedCalciumCalculatorUI />;
+
+    case "serum-osmolality":
+        return <SerumOsmolalityCalculatorUI />;
+
+    case "abg":
+        return <AbgCalculatorUI />;
   
   
 

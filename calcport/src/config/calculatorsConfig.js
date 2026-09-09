@@ -3382,4 +3382,567 @@ faqs: [
   ],
 },
 
+// MAP {MEDICAL}
+
+{
+  id: "map",
+
+  slug: "map-calculator",
+
+  title: "MAP Calculator",
+
+  description:
+    "Calculate Mean Arterial Pressure from systolic and diastolic blood pressure.",
+
+  category: "Medical",
+
+  type: "map",
+
+  icon: "❤️",
+
+  popular: false,
+
+  seo: {
+    title:
+      "MAP Calculator - Mean Arterial Pressure | CalcPort",
+
+    description:
+      "Calculate estimated Mean Arterial Pressure using systolic and diastolic blood pressure values.",
+
+    keywords: [
+      "map calculator",
+      "mean arterial pressure calculator",
+      "blood pressure calculator",
+    ],
+
+    intro:
+      "This calculator estimates Mean Arterial Pressure using systolic and diastolic blood pressure values.",
+
+    sections: [
+      {
+        title: "What Is Mean Arterial Pressure?",
+        content:
+          "Mean Arterial Pressure, or MAP, is an estimate of the average arterial pressure during one cardiac cycle.",
+      },
+      {
+        title: "How Is MAP Calculated?",
+        content:
+          "A commonly used approximation is diastolic pressure plus one-third of the difference between systolic and diastolic pressure.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What does MAP mean?",
+      answer:
+        "MAP stands for Mean Arterial Pressure.",
+    },
+    {
+      question: "How is MAP calculated?",
+      answer:
+        "A common approximation uses systolic and diastolic blood pressure values.",
+    },
+    {
+      question: "Is this a medical diagnosis?",
+      answer:
+        "No. This calculator provides an estimate and should not replace clinical assessment.",
+    },
+  ],
+},
+
+// GSC {MEDICAL}
+
+{
+  id: "gcs",
+
+  slug: "gcs-calculator",
+
+  title: "GCS Calculator",
+
+  description:
+    "Calculate the Glasgow Coma Scale score using eye, verbal and motor responses.",
+
+  category: "Medical",
+
+  type: "gcs",
+
+  icon: "🧠",
+
+  popular: true,
+
+  seo: {
+    title:
+      "GCS Calculator - Glasgow Coma Scale | CalcPort",
+
+    description:
+      "Calculate the Glasgow Coma Scale score using eye, verbal and motor response values.",
+
+    keywords: [
+      "gcs calculator",
+      "glasgow coma scale",
+      "glasgow coma score",
+    ],
+
+    intro:
+      "This educational calculator totals the eye, verbal and motor components of the Glasgow Coma Scale.",
+
+    sections: [
+      {
+        title: "What Is the Glasgow Coma Scale?",
+        content:
+          "The Glasgow Coma Scale is a clinical scoring system based on eye, verbal and motor responses.",
+      },
+      {
+        title: "GCS Components",
+        content:
+          "The total score is calculated by adding the Eye, Verbal and Motor response scores.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is the GCS score range?",
+      answer:
+        "The standard Glasgow Coma Scale total ranges from 3 to 15.",
+    },
+    {
+      question: "What components are used?",
+      answer:
+        "The standard score includes Eye, Verbal and Motor responses.",
+    },
+    {
+      question: "Can this replace clinical assessment?",
+      answer:
+        "No. Clinical scoring should be performed and interpreted by appropriately trained healthcare professionals.",
+    },
+  ],
+},
+
+// ANION GAP {MEDICAL}
+
+{
+  id: "anion-gap",
+
+  slug: "anion-gap-calculator",
+
+  title: "Anion Gap Calculator",
+
+  description:
+    "Calculate the anion gap using sodium, chloride and bicarbonate values.",
+
+  category: "Medical",
+
+  type: "anion-gap",
+
+  icon: "🧪",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Anion Gap Calculator | CalcPort",
+
+    description:
+      "Calculate the anion gap using sodium, chloride and bicarbonate laboratory values.",
+
+    keywords: [
+      "anion gap calculator",
+      "calculate anion gap",
+      "metabolic acidosis calculator",
+    ],
+
+    intro:
+      "This calculator computes the anion gap from sodium, chloride and bicarbonate values.",
+
+    sections: [
+      {
+        title: "What Is the Anion Gap?",
+        content:
+          "The anion gap is a calculated value derived from commonly measured electrolytes.",
+      },
+      {
+        title: "How Is It Calculated?",
+        content:
+          "A common formula is sodium minus the sum of chloride and bicarbonate.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What values are needed?",
+      answer:
+        "This calculator uses sodium, chloride and bicarbonate values.",
+    },
+    {
+      question: "What is the formula?",
+      answer:
+        "Anion Gap = Sodium - (Chloride + Bicarbonate).",
+    },
+    {
+      question: "Should results be interpreted alone?",
+      answer:
+        "No. Laboratory values should be interpreted in appropriate clinical context.",
+    },
+  ],
+},
+
+// MEDICAL UNIT CONVERTER
+
+{
+  id: "medical-unit-converter",
+
+  slug: "medical-unit-converter",
+
+  title: "Medical Unit Converter",
+
+  description:
+    "Convert common medical and healthcare measurement units quickly.",
+
+  category: "Medical",
+
+  type: "medical-unit-converter",
+
+  icon: "🔄",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Medical Unit Converter | CalcPort",
+
+    description:
+      "Convert common healthcare and medical measurement units including weight, length, volume and mass.",
+
+    keywords: [
+      "medical unit converter",
+      "healthcare unit converter",
+      "mg to g converter",
+      "kg to lb converter",
+    ],
+
+    intro:
+      "This Medical Unit Converter helps convert commonly used healthcare measurement units.",
+
+    sections: [
+      {
+        title: "What Can You Convert?",
+        content:
+          "This tool supports common conversions for weight, length, volume and mass.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What units can I convert?",
+      answer:
+        "The calculator supports selected common medical and healthcare measurement conversions.",
+    },
+  ],
+},
+
+// QTC {MEDICAL}
+
+{
+  id: "qtc",
+
+  slug: "qtc-calculator",
+
+  title: "QTc Calculator",
+
+  description:
+    "Calculate corrected QT interval using common QT correction formulas.",
+
+  category: "Medical",
+
+  type: "qtc",
+
+  icon: "❤️",
+
+  popular: true,
+
+  seo: {
+    title:
+      "QTc Calculator - Corrected QT Interval | CalcPort",
+
+    description:
+      "Calculate the corrected QT interval using Bazett and Fridericia formulas.",
+
+    keywords: [
+      "qtc calculator",
+      "corrected qt calculator",
+      "bazett formula",
+      "fridericia formula",
+    ],
+
+    intro:
+      "This calculator estimates the corrected QT interval using common mathematical correction formulas.",
+
+    sections: [
+      {
+        title: "What Is QTc?",
+        content:
+          "QTc is a heart rate-corrected estimate of the QT interval calculated using a selected correction formula.",
+      },
+      {
+        title: "Which Formulas Are Used?",
+        content:
+          "This calculator supports Bazett and Fridericia correction formulas.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What is QTc?",
+      answer:
+        "QTc is a corrected estimate of the QT interval that accounts for heart rate using a mathematical formula.",
+    },
+    {
+      question: "Which formulas are available?",
+      answer:
+        "This calculator supports Bazett and Fridericia formulas.",
+    },
+    {
+      question: "Can this calculator diagnose a heart condition?",
+      answer:
+        "No. QTc results require appropriate clinical interpretation.",
+    },
+  ],
+},
+
+// CORRECTED CALCIUM {MEDICAL}
+
+{
+  id: "corrected-calcium",
+
+  slug: "corrected-calcium-calculator",
+
+  title: "Corrected Calcium Calculator",
+
+  description:
+    "Calculate estimated corrected calcium using measured calcium and albumin.",
+
+  category: "Medical",
+
+  type: "corrected-calcium",
+
+  icon: "🩸",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Corrected Calcium Calculator | CalcPort",
+
+    description:
+      "Calculate estimated corrected calcium using calcium and albumin values.",
+
+    keywords: [
+      "corrected calcium calculator",
+      "calcium albumin calculator",
+      "corrected serum calcium",
+    ],
+
+    intro:
+      "This calculator estimates corrected calcium using measured calcium and albumin values.",
+
+    sections: [
+      {
+        title: "What Is Corrected Calcium?",
+        content:
+          "Corrected calcium is an estimated calcium value adjusted mathematically using albumin concentration.",
+      },
+      {
+        title: "Why Is Albumin Used?",
+        content:
+          "Albumin can affect total measured calcium, so some formulas use albumin for an estimated adjustment.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What values are required?",
+      answer:
+        "You need measured total calcium and albumin values in the units specified by the calculator.",
+    },
+    {
+      question: "Is corrected calcium always accurate?",
+      answer:
+        "No. Different formulas and clinical situations can affect interpretation.",
+    },
+  ],
+},
+
+// SERUM OSMALITY {MEDICAL}
+
+{
+  id: "serum-osmolality",
+
+  slug: "serum-osmolality-calculator",
+
+  title: "Serum Osmolality Calculator",
+
+  description:
+    "Calculate estimated serum osmolality using sodium, glucose and BUN values.",
+
+  category: "Medical",
+
+  type: "serum-osmolality",
+
+  icon: "🧪",
+
+  popular: false,
+
+  seo: {
+    title:
+      "Serum Osmolality Calculator | CalcPort",
+
+    description:
+      "Calculate estimated serum osmolality using sodium, glucose and BUN values.",
+
+    keywords: [
+      "serum osmolality calculator",
+      "calculated osmolality",
+      "serum osmolarity calculator",
+    ],
+
+    intro:
+      "This calculator estimates serum osmolality using a commonly used mathematical formula.",
+
+    sections: [
+      {
+        title: "How Is Serum Osmolality Calculated?",
+        content:
+          "A common estimate uses sodium, glucose and blood urea nitrogen values.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "What values are needed?",
+      answer:
+        "This calculator requires sodium, glucose and BUN values.",
+    },
+    {
+      question: "Is calculated osmolality the same as measured osmolality?",
+      answer:
+        "No. Calculated values are estimates and may differ from laboratory-measured values.",
+    },
+  ],
+},
+
+// ABG {MEDICAL}
+
+{
+  id: "abg",
+
+  slug: "abg-calculator",
+
+  title: "ABG Calculator",
+
+  description:
+    "Interpret arterial blood gas values and review the general acid-base pattern.",
+
+  category: "Medical",
+
+  type: "abg",
+
+  icon: "🫁",
+
+  popular: true,
+
+  seo: {
+    title:
+      "ABG Calculator - Arterial Blood Gas Interpretation | CalcPort",
+
+    description:
+      "Use CalcPort's free ABG Calculator to review pH, PaCO₂ and bicarbonate values and identify the general acid-base pattern.",
+
+    keywords: [
+      "ABG calculator",
+      "arterial blood gas calculator",
+      "ABG interpretation",
+      "acid base calculator",
+      "pH PaCO2 HCO3 calculator",
+    ],
+
+    intro:
+      "The CalcPort ABG Calculator is an educational tool for reviewing arterial blood gas values and identifying a general acid-base pattern. Enter pH, PaCO₂ and HCO₃⁻ values to see the calculated interpretation and compensation estimate.",
+
+    sections: [
+      {
+        title: "What Is an ABG?",
+        content:
+          "An arterial blood gas test measures values such as pH, arterial carbon dioxide tension and bicarbonate. These values help clinicians assess acid-base status and respiratory function.",
+      },
+
+      {
+        title: "How Does ABG Interpretation Work?",
+        content:
+          "ABG interpretation generally begins with pH, followed by assessment of PaCO₂ and bicarbonate to determine whether the primary disturbance appears respiratory or metabolic. Compensation can then be assessed using an appropriate clinical formula.",
+      },
+
+      {
+        title: "ABG Formula and Compensation",
+        content:
+          "This calculator uses commonly taught compensation relationships as educational estimates. For metabolic acidosis, Winter's formula can estimate expected PaCO₂. For respiratory disorders, expected bicarbonate changes can be estimated based on whether the process is acute or chronic.",
+      },
+
+      {
+        title: "Important Medical Disclaimer",
+        content:
+          "ABG results should never be interpreted in isolation. Patient history, examination findings, oxygenation, electrolytes, lactate and other laboratory results may be important. This calculator is for educational purposes and does not provide a medical diagnosis.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What values are needed for an ABG calculation?",
+
+      answer:
+        "The basic calculation uses pH, PaCO₂ and HCO₃⁻ values. Additional clinical information may be required for a complete interpretation.",
+    },
+
+    {
+      question:
+        "What does PaCO₂ represent?",
+
+      answer:
+        "PaCO₂ represents the partial pressure of carbon dioxide in arterial blood and is commonly used to assess the respiratory component of acid-base balance.",
+    },
+
+    {
+      question:
+        "What does HCO₃⁻ represent?",
+
+      answer:
+        "HCO₃⁻ represents bicarbonate and is commonly used to assess the metabolic component of acid-base balance.",
+    },
+
+    {
+      question:
+        "What is Winter's formula?",
+
+      answer:
+        "Winter's formula provides an estimate of expected PaCO₂ in metabolic acidosis and is commonly taught as an aid for assessing respiratory compensation.",
+    },
+
+    {
+      question:
+        "Can this ABG calculator diagnose a patient?",
+
+      answer:
+        "No. It is an educational calculation tool. ABG interpretation requires clinical context and should be performed by an appropriately trained healthcare professional.",
+    },
+  ],
+},
+
 ];
