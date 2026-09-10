@@ -4560,7 +4560,7 @@ faqs: [
   ],
 },
 
-// GCA - CGPA
+// GPA - CGPA
 
 {
   id: "gpa-cgpa",
