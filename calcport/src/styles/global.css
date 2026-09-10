@@ -2065,3 +2065,78 @@ a {
   transform: translateY(-1px);
 
 }
+
+/* -------------------- */
+/* SITE LOGO */
+/* -------------------- */
+
+
+.site-logo {
+  width: 170px;
+  height: auto;
+  display: block;
+}
+
+/* -------------------- */
+/* GPA- CGPA */
+/* -------------------- */
+
+.gpa-subject-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.gpa-subject {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  background: var(--card-bg);
+}
+
+.gpa-subject-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.gpa-remove-button,
+.gpa-add-button {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--text-color);
+  padding: 10px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.gpa-add-button {
+  width: 100%;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.gpa-remove-button:hover,
+.gpa-add-button:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+
+  .gpa-subject {
+    padding: 16px;
+  }
+
+  .gpa-subject-header {
+    align-items: flex-start;
+  }
+
+  .gpa-remove-button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+}

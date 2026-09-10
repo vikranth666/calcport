@@ -22,8 +22,12 @@ export default function Navbar() {
         className="logo"
         onClick={closeMenu}
       >
-        CalcPort
-      </Link>
+    <img
+      src="/calcport-logo.png"
+      alt="CalcPort"
+      className="site-logo"
+      />
+    </Link>
 
       <div className="nav-links desktop-nav">
         <Link to="/">Home</Link>

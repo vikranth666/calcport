@@ -165,6 +165,27 @@ import SerumOsmolalityCalculatorUI
 import AbgCalculatorUI
   from "../components/calculators/AbgCalculatorUI";
 
+import HraCalculatorUI
+  from "../components/calculators/HraCalculatorUI";
+
+import PfCalculatorUI
+  from "../components/calculators/PfCalculatorUI";
+
+import GratuityCalculatorUI
+  from "../components/calculators/GratuityCalculatorUI";
+
+import PpfCalculatorUI
+  from "../components/calculators/PpfCalculatorUI";
+
+import NpsCalculatorUI
+  from "../components/calculators/NpsCalculatorUI";
+
+import GoldLoanCalculatorUI
+  from "../components/calculators/GoldLoanCalculatorUI";
+
+import GpaCgpaCalculatorUI
+  from "../components/calculators/GpaCgpaCalculatorUI";
+
 export default function DynamicCalculator() {
 
   const { slug } = useParams();
@@ -324,6 +345,27 @@ export default function DynamicCalculator() {
 
     case "abg":
         return <AbgCalculatorUI />;
+
+    case "hra":
+        return <HraCalculatorUI />;
+
+    case "pf":
+        return <PfCalculatorUI />;
+
+    case "gratuity":
+        return <GratuityCalculatorUI />;
+
+    case "ppf":
+        return <PpfCalculatorUI />;
+
+    case "nps":
+        return <NpsCalculatorUI />;
+
+    case "gold-loan":
+        return <GoldLoanCalculatorUI />;
+
+    case "gpa-cgpa":
+        return <GpaCgpaCalculatorUI />;
   
   
 

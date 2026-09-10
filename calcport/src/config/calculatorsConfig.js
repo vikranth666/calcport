@@ -3945,4 +3945,734 @@ faqs: [
   ],
 },
 
+// HRA
+
+{
+  id: "hra",
+
+  slug: "hra-calculator",
+
+  title: "HRA Calculator",
+
+  description:
+    "Calculate your estimated House Rent Allowance tax exemption.",
+
+  category: "Finance",
+
+  type: "hra",
+
+  icon: "🏠",
+
+  popular: true,
+
+  seo: {
+    title:
+      "HRA Calculator - House Rent Allowance Calculator | CalcPort",
+
+    description:
+      "Calculate your estimated HRA tax exemption based on salary, HRA received, rent paid and city type.",
+
+    keywords: [
+      "hra calculator",
+      "house rent allowance calculator",
+      "hra exemption calculator",
+      "hra tax calculator",
+    ],
+
+    intro:
+      "Use the HRA Calculator to estimate your House Rent Allowance tax exemption based on basic salary, HRA received, rent paid and whether you live in a metro or non-metro city.",
+
+    sections: [
+      {
+        title: "What Is HRA?",
+        content:
+          "House Rent Allowance, or HRA, is an allowance provided by some employers to help employees meet rental expenses.",
+      },
+
+      {
+        title: "How Is HRA Exemption Calculated?",
+        content:
+          "The estimated exemption is generally based on the lowest of HRA received, a percentage of salary based on city type, and rent paid minus 10 percent of salary, subject to applicable tax rules.",
+      },
+
+      {
+        title: "Metro and Non-Metro Cities",
+        content:
+          "For HRA calculations, the salary percentage used can differ depending on whether the employee lives in a qualifying metro city or a non-metro city.",
+      },
+
+      {
+        title: "Important Note",
+        content:
+          "Tax rules and eligibility can change. This calculator provides an estimate and should not be considered tax or legal advice.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What details are required for the HRA Calculator?",
+
+      answer:
+        "You need your basic salary, HRA received, rent paid and city type.",
+    },
+
+    {
+      question:
+        "How is HRA exemption calculated?",
+
+      answer:
+        "The estimated exemption is generally the lowest of actual HRA received, a percentage of salary based on city type, and rent paid minus 10 percent of salary.",
+    },
+
+    {
+      question:
+        "What is considered a metro city for HRA?",
+
+      answer:
+        "For HRA purposes, qualifying metro cities are generally Kolkata, Delhi, Mumbai and Chennai under commonly used tax rules.",
+    },
+
+    {
+      question:
+        "Is the HRA Calculator result exact for tax filing?",
+
+      answer:
+        "The calculator provides an estimate. Actual tax treatment depends on applicable laws, salary structure and individual circumstances.",
+    },
+  ],
+},
+
+// pf
+
+{
+  id: "pf",
+
+  slug: "pf-calculator",
+
+  title: "PF Calculator",
+
+  description:
+    "Calculate your estimated EPF contributions and future provident fund balance.",
+
+  category: "Finance",
+
+  type: "pf",
+
+  icon: "🏦",
+
+  popular: true,
+
+  seo: {
+    title:
+      "PF Calculator - EPF Calculator India | CalcPort",
+
+    description:
+      "Calculate estimated employee and employer EPF contributions and provident fund growth with CalcPort's free PF Calculator.",
+
+    keywords: [
+      "pf calculator",
+      "epf calculator",
+      "provident fund calculator",
+      "pf calculator india",
+      "epf contribution calculator",
+    ],
+
+    intro:
+      "Use the PF Calculator to estimate your monthly EPF contribution, employer contribution and potential provident fund growth over time.",
+
+    sections: [
+      {
+        title: "What Is EPF?",
+        content:
+          "Employees' Provident Fund, commonly called EPF or PF, is a retirement savings system where eligible employees and employers contribute according to applicable rules.",
+      },
+
+      {
+        title: "How Does PF Contribution Work?",
+        content:
+          "PF contributions are generally calculated using eligible salary components. The exact contribution structure can depend on applicable EPF rules and the employee's salary structure.",
+      },
+
+      {
+        title: "How Is PF Growth Calculated?",
+        content:
+          "The estimated PF balance grows through regular contributions and assumed annual interest. Actual EPF interest rates and applicable rules may change.",
+      },
+
+      {
+        title: "Important Note",
+        content:
+          "This calculator provides an estimate for educational and planning purposes. Actual EPF contributions, employer allocation and interest depend on applicable rules and salary structure.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "How much does an employee contribute to PF?",
+
+      answer:
+        "Employee PF contributions are commonly calculated as a percentage of eligible salary components, subject to applicable EPF rules.",
+    },
+
+    {
+      question:
+        "Does the employer also contribute to PF?",
+
+      answer:
+        "Eligible employers generally contribute to retirement-related funds according to applicable EPF rules and salary structures.",
+    },
+
+    {
+      question:
+        "Does PF earn interest?",
+
+      answer:
+        "PF balances can earn interest according to the applicable EPF interest rate and scheme rules.",
+    },
+
+    {
+      question:
+        "Is this PF Calculator result exact?",
+
+      answer:
+        "No. This calculator provides an estimate. Actual PF contributions and balances depend on salary structure, employer rules and applicable regulations.",
+    },
+  ],
+},
+
+// GRATUITY
+
+{
+  id: "gratuity",
+
+  slug: "gratuity-calculator",
+
+  title: "Gratuity Calculator",
+
+  description:
+    "Calculate your estimated gratuity based on salary and years of service.",
+
+  category: "Finance",
+
+  type: "gratuity",
+
+  icon: "🎁",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Gratuity Calculator - Calculate Gratuity Online | CalcPort",
+
+    description:
+      "Calculate your estimated gratuity based on your last drawn salary and years of service with CalcPort's free Gratuity Calculator.",
+
+    keywords: [
+      "gratuity calculator",
+      "gratuity calculator india",
+      "gratuity calculation",
+      "gratuity formula",
+      "gratuity eligibility",
+    ],
+
+    intro:
+      "Use the CalcPort Gratuity Calculator to estimate your gratuity based on your last drawn salary and years of service.",
+
+    sections: [
+      {
+        title: "What Is Gratuity?",
+
+        content:
+          "Gratuity is a lump-sum benefit that may be payable by an employer to an eligible employee after completing the required period of service, subject to applicable rules.",
+      },
+
+      {
+        title: "How Is Gratuity Calculated?",
+
+        content:
+          "For employees covered by the commonly used gratuity formula, the estimated amount is calculated using last drawn salary, 15 days of wages and completed years of service, with the calculation commonly expressed as Salary × 15 × Years of Service ÷ 26.",
+      },
+
+      {
+        title: "How Are Years of Service Counted?",
+
+        content:
+          "For the commonly used calculation, completed years of service are considered, with applicable rules determining how an additional period of service is treated.",
+      },
+
+      {
+        title: "Important Note",
+
+        content:
+          "Eligibility, calculation, taxation and applicable limits can depend on employment circumstances and current laws. This calculator provides an estimate and should not be treated as legal or tax advice.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "How is gratuity calculated?",
+
+      answer:
+        "A commonly used formula is Last Drawn Salary × 15 × Completed Years of Service ÷ 26, subject to applicable rules.",
+    },
+
+    {
+      question:
+        "What salary is used for gratuity calculation?",
+
+      answer:
+        "The calculation generally uses the applicable last drawn salary components, commonly including basic salary and dearness allowance where applicable.",
+    },
+
+    {
+      question:
+        "How many years are required for gratuity?",
+
+      answer:
+        "Eligibility depends on the applicable gratuity law and employment circumstances. The commonly used framework includes a qualifying service requirement.",
+    },
+
+    {
+      question:
+        "Is gratuity taxable?",
+
+      answer:
+        "Tax treatment can depend on the employee's circumstances and applicable tax rules. Consult current tax guidance for an actual tax determination.",
+    },
+  ],
+},
+
+// PPF
+
+{
+  id: "ppf",
+
+  slug: "ppf-calculator",
+
+  title: "PPF Calculator",
+
+  description:
+    "Calculate your estimated PPF maturity value, investment and interest.",
+
+  category: "Finance",
+
+  type: "ppf",
+
+  icon: "💰",
+
+  popular: true,
+
+  seo: {
+    title:
+      "PPF Calculator - Public Provident Fund Calculator | CalcPort",
+
+    description:
+      "Calculate estimated PPF maturity value, total investment and interest earned using CalcPort's free PPF Calculator.",
+
+    keywords: [
+      "ppf calculator",
+      "ppf calculator india",
+      "public provident fund calculator",
+      "ppf maturity calculator",
+      "ppf interest calculator",
+    ],
+
+    intro:
+      "Use the PPF Calculator to estimate your Public Provident Fund maturity value, total investment and interest earned based on your annual contribution, interest rate and investment period.",
+
+    sections: [
+      {
+        title: "What Is PPF?",
+        content:
+          "The Public Provident Fund is a long-term savings scheme in India designed for disciplined investment and long-term financial planning.",
+      },
+
+      {
+        title: "How Does the PPF Calculator Work?",
+        content:
+          "The calculator estimates the future value of yearly PPF contributions using the annual investment amount, assumed interest rate and investment period entered by the user.",
+      },
+
+      {
+        title: "PPF Interest Calculation",
+        content:
+          "PPF interest is calculated according to the applicable scheme rules. The interest rate can change over time, so the calculator uses the rate entered by the user as an assumption for the projection.",
+      },
+
+      {
+        title: "Important Note",
+        content:
+          "This calculator provides an estimate for financial planning and educational purposes. Actual PPF maturity values depend on applicable government rules, interest rates, contribution timing and account conditions.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is a PPF Calculator?",
+
+      answer:
+        "A PPF Calculator estimates the potential maturity value of a PPF investment based on annual contributions, an assumed interest rate and the investment period.",
+    },
+
+    {
+      question:
+        "What inputs are required for the PPF Calculator?",
+
+      answer:
+        "You generally need the annual investment amount, expected interest rate and investment period.",
+    },
+
+    {
+      question:
+        "Does the PPF interest rate remain fixed?",
+
+      answer:
+        "The applicable PPF interest rate can change over time. This calculator therefore uses the interest rate entered by the user for estimation.",
+    },
+
+    {
+      question:
+        "Is the PPF Calculator result guaranteed?",
+
+      answer:
+        "No. The result is an estimate based on the assumptions entered and should not be treated as a guaranteed future value.",
+    },
+  ],
+},
+
+// NPS
+
+{
+  id: "nps",
+
+  slug: "nps-calculator",
+
+  title: "NPS Calculator",
+
+  description:
+    "Calculate your estimated National Pension System retirement corpus and pension.",
+
+  category: "Finance",
+
+  type: "nps",
+
+  icon: "📈",
+
+  popular: true,
+
+  seo: {
+    title:
+      "NPS Calculator - National Pension System Calculator | CalcPort",
+
+    description:
+      "Calculate your estimated NPS retirement corpus, investment returns, lump-sum amount and pension using CalcPort's free NPS Calculator.",
+
+    keywords: [
+      "nps calculator",
+      "nps pension calculator",
+      "national pension system calculator",
+      "nps retirement calculator",
+      "nps corpus calculator",
+    ],
+
+    intro:
+      "Use the NPS Calculator to estimate your potential retirement corpus based on your monthly contribution, investment period and expected return. You can also estimate the annuity portion and potential monthly pension.",
+
+    sections: [
+      {
+        title: "What Is NPS?",
+
+        content:
+          "The National Pension System is a retirement-focused investment framework in India. Contributions are invested according to the selected investment choices and the value can change based on market performance.",
+      },
+
+      {
+        title: "How Does the NPS Calculator Work?",
+
+        content:
+          "The calculator estimates the future value of regular monthly contributions using an assumed annual rate of return. It then estimates the amount allocated toward annuity and the remaining lump-sum amount using the assumptions entered.",
+      },
+
+      {
+        title: "What Is the Annuity Portion?",
+
+        content:
+          "At retirement, a portion of the NPS corpus may be used to purchase an annuity according to applicable rules. The annuity percentage and pension estimate used by this calculator are assumptions and should not be treated as guaranteed values.",
+      },
+
+      {
+        title: "Important Note",
+
+        content:
+          "NPS returns are market-linked and are not guaranteed. Actual retirement corpus, annuity value and pension depend on contributions, investment performance, applicable regulations, annuity rates and individual circumstances.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What information is required for the NPS Calculator?",
+
+      answer:
+        "You need your monthly NPS contribution, investment period and expected annual return. You can also enter assumptions for the annuity portion and annuity rate.",
+    },
+
+    {
+      question:
+        "Are NPS returns guaranteed?",
+
+      answer:
+        "No. NPS investment returns are market-linked and the actual return can differ from the assumed rate used in this calculator.",
+    },
+
+    {
+      question:
+        "What is the NPS corpus?",
+
+      answer:
+        "The NPS corpus is the estimated accumulated value of contributions and investment returns over the investment period.",
+    },
+
+    {
+      question:
+        "What is an annuity in NPS?",
+
+      answer:
+        "An annuity is a financial product that can provide regular income. The amount used for an annuity and the resulting pension depend on applicable rules and annuity rates.",
+    },
+
+    {
+      question:
+        "Is the NPS Calculator result guaranteed?",
+
+      answer:
+        "No. It is an estimate based on the assumptions entered. Actual NPS outcomes can differ because investment returns and annuity rates can change.",
+    },
+  ],
+},
+
+// GOLD LOAN
+
+{
+  id: "gold-loan",
+
+  slug: "gold-loan-calculator",
+
+  title: "Gold Loan Calculator",
+
+  description:
+    "Calculate estimated gold value, eligible loan amount and monthly EMI.",
+
+  category: "Finance",
+
+  type: "gold-loan",
+
+  icon: "🪙",
+
+  popular: true,
+
+  seo: {
+    title:
+      "Gold Loan Calculator - Calculate Gold Loan EMI | CalcPort",
+
+    description:
+      "Calculate your estimated gold loan amount and EMI based on gold weight, purity, gold rate, loan-to-value ratio and interest rate.",
+
+    keywords: [
+      "gold loan calculator",
+      "gold loan emi calculator",
+      "gold loan eligibility calculator",
+      "gold loan calculator india",
+      "gold loan interest calculator",
+    ],
+
+    intro:
+      "Use the Gold Loan Calculator to estimate the value of your gold, potential loan amount and monthly EMI based on the gold weight, purity, gold rate, loan-to-value ratio, interest rate and loan tenure.",
+
+    sections: [
+      {
+        title: "What Is a Gold Loan?",
+        content:
+          "A gold loan is a secured loan where eligible gold jewellery or other accepted gold assets are pledged as security against the loan.",
+      },
+
+      {
+        title: "How Is Gold Loan Eligibility Estimated?",
+        content:
+          "The estimated loan amount depends on factors such as gold weight, purity, applicable gold valuation and the lender's permitted loan-to-value ratio.",
+      },
+
+      {
+        title: "How Is Gold Loan EMI Calculated?",
+        content:
+          "For an EMI-based repayment estimate, the calculator uses the loan amount, annual interest rate and loan tenure to calculate an approximate monthly payment.",
+      },
+
+      {
+        title: "Important Note",
+        content:
+          "Actual loan eligibility, gold valuation, interest rate, fees, repayment structure and loan-to-value limits vary between lenders and can change over time. This calculator provides an estimate only.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "How is a gold loan amount calculated?",
+
+      answer:
+        "The estimated loan amount is based on the estimated value of eligible gold multiplied by the selected loan-to-value percentage.",
+    },
+
+    {
+      question:
+        "Does gold purity affect the loan amount?",
+
+      answer:
+        "Yes. Gold purity can affect the value assigned to the pledged gold and therefore the estimated loan amount.",
+    },
+
+    {
+      question:
+        "What is LTV in a gold loan?",
+
+      answer:
+        "LTV, or loan-to-value ratio, represents the percentage of the eligible gold value that may be considered for lending under applicable rules and lender policies.",
+    },
+
+    {
+      question:
+        "Is the Gold Loan Calculator result exact?",
+
+      answer:
+        "No. It is an estimate. Actual loan amounts and repayment terms depend on the lender's valuation, policies, applicable regulations and the specific gold being pledged.",
+    },
+  ],
+},
+
+// GCA - CGPA
+
+{
+  id: "gpa-cgpa",
+
+  slug: "gpa-cgpa-calculator",
+
+  title: "GPA / CGPA Calculator",
+
+  description:
+    "Calculate GPA and CGPA from subject grades and credits.",
+
+  category: "Education",
+
+  type: "gpa-cgpa",
+
+  icon: "🎓",
+
+  popular: true,
+
+  seo: {
+    title:
+      "GPA & CGPA Calculator - Calculate GPA and CGPA | CalcPort",
+
+    description:
+      "Calculate your GPA and CGPA easily using subject grades and credit points with CalcPort's free GPA and CGPA calculator.",
+
+    keywords: [
+      "gpa calculator",
+      "cgpa calculator",
+      "gpa to cgpa calculator",
+      "college gpa calculator",
+      "semester gpa calculator",
+      "cgpa calculator india",
+    ],
+
+    intro:
+      "Use the CalcPort GPA and CGPA Calculator to calculate your semester GPA or overall CGPA using subject grades and credit values.",
+
+    sections: [
+      {
+        title: "What Is GPA?",
+        content:
+          "Grade Point Average, or GPA, represents the average grade points earned across courses, usually taking course credits into account.",
+      },
+
+      {
+        title: "What Is CGPA?",
+        content:
+          "Cumulative Grade Point Average, or CGPA, represents the combined grade-point performance across multiple courses or semesters.",
+      },
+
+      {
+        title: "How Is GPA Calculated?",
+        content:
+          "A credit-weighted GPA can be calculated by multiplying each subject's grade point by its credits, adding those values together, and dividing by the total number of credits.",
+      },
+
+      {
+        title: "GPA and CGPA Are Not Always the Same",
+        content:
+          "GPA usually refers to performance for a particular semester or period, while CGPA represents cumulative performance. Institutions may use different grading scales and conversion rules.",
+      },
+
+      {
+        title: "Important Note",
+        content:
+          "Grading systems differ between universities and institutions. Always use your institution's official grading scale when calculating or converting academic results.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question:
+        "What is the difference between GPA and CGPA?",
+
+      answer:
+        "GPA generally represents performance for a specific semester or period, while CGPA represents cumulative performance across multiple courses or semesters.",
+    },
+
+    {
+      question:
+        "How is GPA calculated?",
+
+      answer:
+        "A common credit-weighted GPA calculation divides the total of grade points multiplied by course credits by the total number of credits.",
+    },
+
+    {
+      question:
+        "Can I calculate GPA without credits?",
+
+      answer:
+        "Yes, if all subjects have equal weight, a simple average of the grade points can be used. When subjects have different credits, a credit-weighted calculation is more appropriate.",
+    },
+
+    {
+      question:
+        "Can GPA be converted directly to percentage?",
+
+      answer:
+        "There is no universal conversion formula. Percentage conversion depends on the rules of your university or institution.",
+    },
+
+    {
+      question:
+        "Is CGPA the same for every university?",
+
+      answer:
+        "No. Universities can use different grading scales, grade points and CGPA calculation policies.",
+    },
+  ],
+},
+
 ];
