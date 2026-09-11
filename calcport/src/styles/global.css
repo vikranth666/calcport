@@ -2074,6 +2074,7 @@ a {
 .site-logo {
   width: 170px;
   height: auto;
+  border-radius: 35%;
   display: block;
 }
 
