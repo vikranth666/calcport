@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { calculatorsConfig } from "../config/calculatorsConfig";
 
 import CalculatorCard
@@ -21,27 +22,27 @@ export default function CalculatorSection() {
 
       </div>
 
-  <div className="calculator-grid">
+      <div className="calculator-grid">
 
-  {calculatorsConfig
-    .filter((calculator) => calculator.popular === true)
-    .slice(0, 8)
-    .map((calculator) => (
+        {calculatorsConfig
+          .filter((calculator) => calculator.popular === true)
+          .slice(0, 8)
+          .map((calculator) => (
 
-      <CalculatorCard
-        key={calculator.id}
-        calculator={calculator}
-      />
+            <CalculatorCard
+              key={calculator.id}
+              calculator={calculator}
+            />
 
-    ))}
+          ))}
 
-</div>
+      </div>
 
-<div className="calculator-section-action">
-  <a href="/calculators">
-    View All Calculators →
-  </a>
-</div>
+      <div className="calculator-section-action">
+        <Link to="/calculators">
+          View All Calculators →
+        </Link>
+      </div>
 
     </section>
   );
